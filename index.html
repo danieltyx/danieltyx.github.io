@@ -1,58 +1,47 @@
-<!--
-  KeyShotXR
-  (c) Copyright 2012-2017 Luxion ApS - All Rights Reserved.
--->
-
 <!DOCTYPE html>
-<html xmlns='http://www.w3.org/1999/xhtml'>
-  <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>KeyShotXR</title>
-    <style type="text/css">
-      body { -ms-touch-action: none; }
-    </style>
-    <script type="text/javascript" src="untitled.7/files/KeyShotXR.js"></script>
-    <script type="text/javascript">
-      var keyshotXR;
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link rel="canonical" href="https://html5-templates.com/" />
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="script.js"></script>	
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<title>Windows Template</title>
+</head>
+<body>
+	<div id="desktop">
+		<div class="window" data-title="First">
+			Window content
+		</div>
+		<div class="window" data-title="Second">
+			Second Window
+		</div>
+		<div class="window closed" data-title="Third">
+			Third window starts closed
+		</div>
+		<div class="window" data-title="Welcome">
+			<h1>Yuxuan"Daniel" Tian</h1>
+			<p>Personal website</p>
+			<hr />
+			<p><strong><a href="./index2.html">Pulmonary Reabilitation Robot</a></strong></p>
+		</div>
+		
+		<div id="taskbar">		
+		</div>
+		
+		<div id="icons">
+			<a class="openWindow" data-id="0">Open first</a>
+			<a class="openWindow" data-id="1">Open second</a>
+			<a class="openWindow" data-id="2">Open third</a>
+			<a class="openWindow" data-id="3">Welcome screen</a>
+		</div>
+		<a href="https://html5-templates.com/" rel="nofollow" target="_blank" id="templateLink">&copy; HTML5-Templates.com</a>	
+		<!-- You can use this template freely if you leave a visible link to HTML5-Templates.com -->
+	</div>
+</body>
 
-      function initKeyShotXR() {
-        var nameOfDiv = "KeyShotXR";
-        var folderName = "untitled.7";
-        var viewPortWidth = 1445;
-        var viewPortHeight = 903;
-        var backgroundColor = "#FFFFFF";
-        var uCount = 18;
-        var vCount = 5;
-        var uWrap = true;
-        var vWrap = false;
-        var uMouseSensitivity = -0.05;
-        var vMouseSensitivity = 0.0625;
-        var uStartIndex = 9;
-        var vStartIndex = 1;
-        var minZoom = 1;
-        var maxZoom = 1;
-        var rotationDamping = 0.96;
-        var downScaleToBrowser = true;
-        var addDownScaleGUIButton = false;
-        var downloadOnInteraction = false;
-        var imageExtension = "png";
-        var showLoading = true;
-        var loadingIcon = "ks_logo.png"; // Set to empty string for default icon.
-        var allowFullscreen = true; // Double-click in desktop browsers for fullscreen.
-        var uReverse = false;
-        var vReverse = false;
-        var hotspots = {};
-        var isIBooksWidget = false;
-        
-        keyshotXR = new keyshotXR(nameOfDiv,folderName,viewPortWidth,viewPortHeight,backgroundColor,uCount,vCount,uWrap,vWrap,uMouseSensitivity,vMouseSensitivity,uStartIndex,vStartIndex,minZoom,maxZoom,rotationDamping,downScaleToBrowser,addDownScaleGUIButton,downloadOnInteraction,imageExtension,showLoading,loadingIcon,allowFullscreen,uReverse,vReverse,hotspots,isIBooksWidget);
-      }
-
-      window.onload = initKeyShotXR;
-    </script>
-  </head>
-  <body oncontextmenu="return false;">
-    <div id="KeyShotXR"></div>
-  </body>
 </html>
