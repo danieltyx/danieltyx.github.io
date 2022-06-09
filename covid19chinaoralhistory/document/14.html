@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <style>body{
+    font-family: "segoe ui emoji";
+}
+      #image1{
+    margin-top: 20px;
+}
+
+#intro{
+    border-style: solid;
+    border-radius: 10px;
+    margin: auto;
+    width: 70%;
+    margin-top: 30px;
+}
+
+#contentArea{
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#CommentArea{
+    width: 58%;
+    background-color: rgb(240, 238, 243);
+    margin: auto;
+    border-radius: 5px;
+    border-color: darkgray;
+    border-style: solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#commentTitle{
+    margin-left: 20px;
+}
+
+.comment{
+    margin-left: 50px;
+}
+
+.fa-thumbs-up{
+    transform: scale(1.5, 1.5);
+    margin-left: 30px;
+}
+
+.liketext{
+    margin-left: 10px;
+}
+
+#commentForm{
+    width: 100%
+}
+
+#like{
+    margin-right: 20px;
+    width: 13%;
+}
+
+#txtarea{
+    width: 70%; 
+    border-radius: 5px; 
+    height: auto;
+}
+
+#PostPost{
+    width: 10%; 
+    margin-left: 10px; 
+    position: relative; 
+    top: 3px;
+}
+          #template{
+              display: grid;
+              grid-template-columns: 70% 30%;
+              grid-template-areas: "cont side";
+          }
+      </style>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>COVID-19 China Project</title>
+<link href="../css/all.min.css" rel="stylesheet">
+  </head>
+  <body style="background-color: rgb(240, 238, 243)"  onload="load();">
+    <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <div id="page">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(96, 196, 188)">
+          <a class="navbar-brand" href="../index.html" style="font-weight: bold; font-family: 'adelle-sans' sans-serif;">COVID-19 China Project</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item ">
+                <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              
+              <li class="nav-item ">
+                <a class="nav-link" href="../about.html">About <span class="sr-only">(current)</span></a>
+              </li>
+              
+              <li class="nav-item active">
+                <a class="nav-link" href="../browsestory.html">Browse Story <span class="sr-only">(current)</span></a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#exampleModal" data-toggle="modal">Contact Us <span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div id="template">
+            <div style="grid-area: cont">
+                <h3 style="text-align: center; padding-top: 20px;">The Corona Virus will end; life has to move on</h3>
+                <div id="intro" style="padding: 20px">
+                Aunt Gao is a beautician in Suzhou, which has no basic salary and take commission of beauty salon as her primary income. Although she is a normal person, her life is like a mirror which reflects the change of Chinese society and how a countryside person settled in the city. However, during the corona virus, urban immigrants like her had a hard time since the impact of epidemic on low risk-resistance enterprises and individuals might be fatal. This interview is taken in late March (2 months after epidemic broke out).
+                </div>
+                <div id="contentArea">
+                <h5 style="text-align: center; font-weight: bold">Introduction</h5>
+                    <p>I work in a beauty salon in Suzhou, Jiangsu Province. Due to the epidemic, I had stopped working for nearly three months since Spring Festival (25/01/2020). My family consist of four people, my husband, my daughter, aunt who helps me to look after my daughter and me. My husband work in the same beauty salon as me. He is a barber. Since cutting hair is necessary, after 28 days that there were no new cases, my husband returned to work in the late March, which became the only source income of our family.</p>
+                    <h5 style="text-align: center; font-weight: bold">Family Situation</h5>
+                    <p>My hometown is a small village in northern Jiangsu. There are three children, my sister and I are twins, as well as a younger brother. My family is of average situation. I had my primary school in our village, and boarding middle school in the town. Since my middle school, my parents decided to work in Guangdong. When I was in my middle school, no one kept me from school because of our situation, but no one ever told me anything about the importance of studying neither. I really wanted to stay with my parents and I also had no passion on study. Thus, I no longer went to school after I graduated from my middle school. I decided to go to Guangzhou and work with my parents. My parents did not object me. I lived with my parents in Guangzhou and I felt very happy. I first worked in a factory, then I worked in the beauty salon. After that, I followed my teacher to Suzhou. Since then, it has been ten years.</p>
+                    <p>I worked hard in the beauty salon and married with the barber in the same salon. We had a girl who is now two years old. Beauticians like me usually will send their children back to hometown and let their parents take after them. However, due to my personal experience, I made my mind to keep my child aside. So, I told my husband either return hometown together or buy a house in Suzhou. Me myself want to stay in Suzhou because Suzhou is a fast-developing city that is just behind Beijing, Shanghai, Shenzhen etc. Compared to my hometown, there are more job opportunities, higher salary, my child can also get better education. Although it will be hard for us to buy house since the price is growing fast, I think we are still young, as long as we strive hard, we can survive. Most importantly, we have to stay in big city for our child’s future. My husband’s parents are quite open-minded. They sold the marriage house in hometown to help us pay the down payment. His mother even came to Suzhou to help us take care of our child. The monthly mortgage is six thousand. Our income is about ten thousand. We could afford our living cost now. However, we want better education for out kid, the income right now is not enough. So, we work hard, try our best to provide customers with better service in order to increase our customer and earn more money. Actually, our parents wanted us to have a second child. However, since the living cost is high and the wish of better education, we cannot afford the cost of raising two kids. So, we decided not to have a second child.</p>
+                    <h5 style="text-align: center; font-weight: bold">The Sudden Epidemic Panic</h5>
+                    <p>In January, beauty salon rested the day before Spring Festival as usual. At first, there was just some information on the internet that there was an epidemic in Wuhan Province, and the infected population stayed low. It was said that it was originated from a seafood market. People didn’t take it as a big deal, merely tried to eat less seafood. On the night of Jan. 20th, Nanshan Zhong affirmed the infectiousness of the epidemic, and couples of medical staffs were infected. People became nervous since they recalled SARS 17 years ago. However, since there was no suspected case in Suzhou during SARS, people didn’t panic. On Jan. 22th, Suzhou announced the first case. It was a 37-year old man who returned from Wuhan on Jan. 17th, and he lived in the industrial estate where our beauty salon located. Meanwhile, all kinds of rumors appeared in WeChat. For instance, a staff in the canteen was infected, someone cannot be found, medical staffs wore clothes like the ones in Resident Evil. People panicked. Beauty salon insisted on our plan but we all wore face masks for our own sake. I rushed to purchase some face masks since it was already quite hard to buy masks online. I had to refresh the pages frequently and purchase immediately for it would sell out very fast. Pharmacies didn’t have masks ordinarily. Later they announced each person can purchase 5 masks each day with their identity cards. During the Spring Festival holiday, we paid close attention on the epidemic. Wuhan’s definite case outburst, the highest day surpasses 10,000. Suzhou increased about 10 cases each day, which was the fasted city in Jiangsu. I was incredibly nervous, especially nervous about my kids. We tried our best to stay at home. My husband went to the supermarket to purchase great amounts of articles of daily use. Our housing estate carried out closed-out management by opening only one exit. We would receive a exit slip and had to return it when we come back as well as take our temperature. Cars and people who did not belong to our estate were forbidden to enter. The property management company would disinfect our estate every day, including the corridors and elevators. The Corona virus was also proved to be spread through more ways, droplet transmission, touch, excrement, even air! People became more and more panic. We barely go out. We bought necessities through the internet. My husband armed to the teeth to take it at estate’s entrance. He walked the stairs instead of the elevator, spray disinfect fluid when he returned and take shower immediately. Besides our attention on epidemic, all we do was to accompany our kids. Since we worked till 10 p.m. and return home late at usual and had little time to accompany our kids, I compensated during epidemic. Besides, I watched many cooking videos online and cooked for my family. Because of little amount of exercise and eating a lot, we all gained weight. However, as the housing due date was at the corner, I was anxious.</p>
+                    <h5 style="text-align: center; font-weight: bold">Life after Epidemic</h5>
+                    <p>At the end of February, case in Suzhou remained zero. Management became looser. Everyone could register a code. It was judged to be green code, yellow code or red code by the roaming track of phone numbers. At the end of March, hair salon business returned to work since it was necessary. My workplace was disinfected according to the regulations. Hairdressers and clients all wore face masks. Clients registered with their identity card. My husband had income. My pressure lessened. However, I still cannot return to work. Due to the decreased income, I didn’t have enough money to pay the due. Fortunately, banks offered due postponing policy and I had applied for it. However, because of the worry about Corona Virus, there were few customers. I don’t have basic salary; my income totally depends on my customers’ consumption. Only depend on my husband’s income, we can narrowly pay our due, but there was little money left for our daily life. At present, I sell some beauty related products in my WeChat in order to have more income.</p>
+                    <p>The Corona Virus will end; life has to move on.</p>
+                    <p style="font-style: italic">Aunt Gao has returned to work now. However, due to the impact of epidemic, most of the clients have stopped their beauty items. She has no idea when people can be no longer afraid to take beauty programs. Thus, she doesn’t have much income now. Her family mostly depends on her husband’s income.</p>
+                </div>
+                
+            </div>
+            <div style="grid-area: side; margin-top: 40px">
+                <p style="font-size: 1.3em"><strong>Interviewed By</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">Zhiyu Xiong</p>
+                <p style="font-size: 1.3em"><strong>Interviewee</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">Mrs. Gao</p>
+                <p style="font-size: 1.3em"><strong>Interview Date</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">4/20/2020</p>
+                <p style="font-size: 1.3em"><strong>Occupation</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">beautician </p>
+            </div>
+        </div>
+        <hr>
+        <div id="CommentArea">
+           <div style="background-color: beige">
+                <h3 id="commentTitle">comments</h3>
+                <hr>
+            </div>
+            
+            <form class="form-inline" method="get">
+               <div class="form-group mx-sm-3 mb-2" id="commentForm">
+                   <button id="like" type="button" class="btn btn-outline-primary" onclick="pressLike()">
+                       <i class="fa fa-chevron-up" aria-hidden="true" id="likeSign" style="transition: transform 0.5s;"></i>
+                       Like <span id="likeNum">5</span>
+                   </button>
+                   
+                   <textarea class="form-control" id="txtarea" rows="1" placeholder="Write Comments!" name="comment"></textarea>
+                    <button type="submit" class="btn btn-primary mb-2" id="PostPost">Post</button>
+                </div>
+            </form>
+            </div>
+        </div>
+        <footer style="background-color: rgb(96, 196, 188); margin: auto">
+          <div class="footer-copyright text-center py-3">© 2020 PalmDrive. All Rights Reserved
+          </div>
+        </footer>
+        <script>
+      function myFunction(x){
+    if(x.className == "far fa-thumbs-up"){
+        x.className = "fas fa-thumbs-up";
+    }else{
+        x.className = "far fa-thumbs-up";
+     }
+}
+function expandTextarea(id) {
+    document.getElementById(id).addEventListener('keyup', function() {
+        this.style.overflow = 'hidden';
+        this.style.height = 0;
+        this.style.height = this.scrollHeight + 'px';
+    }, false);
+}
+
+expandTextarea('txtarea');
+
+function pressLike(){
+    let like = document.getElementById("like");
+    if(like.className == "btn btn-outline-primary"){
+        like.className = "btn btn-primary";
+        const sign = document.getElementById("likeSign");
+        sign.style.transform = "translateY(-5px)";
+        setTimeout(function (){
+            sign.style.transform = "translateY(0px)";
+        }, 400);
+        if (typeof(Storage) !== "undefined") {
+            localStorage.setItem("like14", "true");
+        }
+        const Http = new XMLHttpRequest();
+        const url = "/document/14?val=1&d=1";
+        Http.open("GET", url);
+        Http.send();
+        document.getElementById("likeNum").innerText = parseInt(document.getElementById("likeNum").innerText) + 1 + "";
+    }else{
+        like.className = "btn btn-outline-primary";
+        if (typeof(Storage) !== "undefined") {
+            localStorage.setItem("like14", "false");
+        }
+        const Http = new XMLHttpRequest();
+        const url = "/document/14?val=-1&d=1";
+        Http.open("GET", url);
+        Http.send();
+        document.getElementById("likeNum").innerText = parseInt(document.getElementById("likeNum").innerText) - 1 + "";
+    }
+}
+function load(){
+    if(localStorage.getItem("like14") == "true"){
+        like.className = "btn btn-primary";
+    }
+}
+      </script>
+      <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="border-style: none">
+  <div class="modal-dialog modal-dialog-centered" style="border-style: none">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color: rgb(88, 193, 187);">
+        <h5 class="modal-title" id="exampleModalLabel" style="margin-left: auto; color: white; font-size: 1.5em">Contact Us</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" style="padding-left: 20%; padding-right: 20%;">
+        <div style="position: relative;">
+            <i class="fas fa-envelope" style="color: rgb(88, 193, 187); font-size: 2em"></i>
+            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 250px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">tina_sheng@palmdrive.cn</span>
+        </div>
+          <br>
+        <div style="position: relative;">
+            <i class="fab fa-weixin" style="color: rgb(88, 193, 187); font-size: 1.9em"></i>
+            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 250px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">tinasheng002</span>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal" style="background-color: rgb(88, 193, 187); border-style: none; margin-left: auto; margin-right: auto; font-size: 1.3em; border-radius: 0.5em">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </body>
+</html>

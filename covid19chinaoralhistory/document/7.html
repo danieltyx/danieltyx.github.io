@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <style>body{
+    font-family: "segoe ui emoji";
+}
+      #image1{
+    margin-top: 20px;
+}
+
+#intro{
+    border-style: solid;
+    border-radius: 10px;
+    margin: auto;
+    width: 70%;
+    margin-top: 30px;
+}
+
+#contentArea{
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#CommentArea{
+    width: 58%;
+    background-color: rgb(240, 238, 243);
+    margin: auto;
+    border-radius: 5px;
+    border-color: darkgray;
+    border-style: solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#commentTitle{
+    margin-left: 20px;
+}
+
+.comment{
+    margin-left: 50px;
+}
+
+.fa-thumbs-up{
+    transform: scale(1.5, 1.5);
+    margin-left: 30px;
+}
+
+.liketext{
+    margin-left: 10px;
+}
+
+#commentForm{
+    width: 100%
+}
+
+#like{
+    margin-right: 20px;
+    width: 13%;
+}
+
+#txtarea{
+    width: 70%; 
+    border-radius: 5px; 
+    height: auto;
+}
+
+#PostPost{
+    width: 10%; 
+    margin-left: 10px; 
+    position: relative; 
+    top: 3px;
+}
+          #template{
+              display: grid;
+              grid-template-columns: 70% 30%;
+              grid-template-areas: "cont side";
+          }
+      </style>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>COVID-19 China Project</title>
+<link href="../css/all.min.css" rel="stylesheet">
+  </head>
+  <body style="background-color: rgb(240, 238, 243)"  onload="load();">
+    <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <div id="page">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(96, 196, 188)">
+          <a class="navbar-brand" href="../index.html" style="font-weight: bold; font-family: 'adelle-sans' sans-serif;">COVID-19 China Project</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item ">
+                <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              
+              <li class="nav-item ">
+                <a class="nav-link" href="../about.html">About <span class="sr-only">(current)</span></a>
+              </li>
+              
+              <li class="nav-item active">
+                <a class="nav-link" href="../browsestory.html">Browse Story <span class="sr-only">(current)</span></a>
+              </li>
+              
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#exampleModal" data-toggle="modal">Contact Us <span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div id="template">
+            <div style="grid-area: cont">
+                <h3 style="text-align: center; padding-top: 20px;">Impact of COVID-19 on High School Student from overseas</h3>
+                <div id="intro" style="padding: 20px">
+                Nalisa was born in Shanghai, and she immigrated to America with her family after finishing grade 7. They currently live in Long Island, New York. As a senior, COVID-19 changes her life to a wide extent, the graduation ceremony eventually became unrealistic too.
+                </div>
+                <div id="contentArea">
+                    <h5 style="text-align: center; font-weight: bold">Food and other resources</h5>
+                    <p>My family already stored enough masks and sanitary supplies, stores in New York no longer sell masks and meat anymore. </p>
+                    <h5 style="text-align: center; font-weight: bold">Impacts of COVID-19</h5>
+                    <p>Currently, my graduation ceremony can’t be held and New York state assessment tests are all canceled as well. My study supplies are all in school, however, since I can’t go and get it, my study process has been largely hindered. While we were in school, some of the students and teachers didn’t realize the danger of the epidemic and thought wearing masks was making a fuss. Taking online classes, many teachers can’t operate computers skillfully, which makes the classes hard to carry on. Moreover, COVID-19 has caused huge impacts on international students as well. Take examples of NYU’s students, they have been required to move out from the dormitories and can’t find place to stay. On the other hand, some students live in local American homestays but the guardians can’t understand the seriousness of COVID-19, therefore they can’t provide efficient and strict preventions for students.</p>
+                    <h5 style="text-align: center; font-weight: bold">Problems exposed under the outbreak of COVID-19</h5>
+                    <p>I personally think the death toll reported in the news is not constant with the real numbers. Many schools are not well prepared for the epidemic, including my school, and responded poorly in front of the dangerous situation. As a result, my school closed relatively later than others. Now we all communicate through email. From the outbreak of COVID-19, the problems concealed in American medical system exposed: many states can’t make responses timely and the medical facilities in NYC are not sound enough too. These problems emerged due to the lack of fever clinics in American hospitals. Apart from this reason, it is also because most Americans are used to consult family doctors rather than going to hospital.</p>
+                    <p style="font-style: italic">Till this moment, there are 1170 thousand confirmed cases in America, including 300 thousand in NYC. The graduation, which she expected for a long time, has been canceled as well. But she hopes her plan of going back to China and meeting up with middle school friends can be fulfilled when the epidemic ceased.</p>
+                </div>
+            </div>
+            <div style="grid-area: side; margin-top: 40px">
+                <p style="font-size: 1.3em"><strong>Interviewed By</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">Shelly Zhu</p>
+                <p style="font-size: 1.3em"><strong>Interviewee</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">Nalisa Xu</p>
+                <p style="font-size: 1.3em"><strong>Interview Date</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">4/12/2020</p>
+                <p style="font-size: 1.3em"><strong>Occupation</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">High School Student</p>
+            </div>
+        </div>
+        <hr>
+        <div id="CommentArea">
+           <div style="background-color: beige">
+                <h3 id="commentTitle">comments</h3>
+                <hr>
+            </div>
+            
+                <div class="comment">
+                <p><p><br>
+            </div>
+            <hr>
+            
+            <form class="form-inline" method="get">
+               <div class="form-group mx-sm-3 mb-2" id="commentForm">
+                   <button id="like" type="button" class="btn btn-outline-primary" onclick="pressLike()">
+                       <i class="fa fa-chevron-up" aria-hidden="true" id="likeSign" style="transition: transform 0.5s;"></i>
+                       Like <span id="likeNum">1</span>
+                   </button>
+                   
+                   <textarea class="form-control" id="txtarea" rows="1" placeholder="Write Comments!" name="comment"></textarea>
+                    <button type="submit" class="btn btn-primary mb-2" id="PostPost">Post</button>
+                </div>
+            </form>
+            </div>
+        </div>
+        <footer style="background-color: rgb(96, 196, 188); margin: auto">
+          <div class="footer-copyright text-center py-3">© 2020 PalmDrive. All Rights Reserved
+          </div>
+        </footer>
+        <script>
+      function myFunction(x){
+    if(x.className == "far fa-thumbs-up"){
+        x.className = "fas fa-thumbs-up";
+    }else{
+        x.className = "far fa-thumbs-up";
+     }
+}
+function expandTextarea(id) {
+    document.getElementById(id).addEventListener('keyup', function() {
+        this.style.overflow = 'hidden';
+        this.style.height = 0;
+        this.style.height = this.scrollHeight + 'px';
+    }, false);
+}
+
+expandTextarea('txtarea');
+
+function pressLike(){
+    let like = document.getElementById("like");
+    if(like.className == "btn btn-outline-primary"){
+        like.className = "btn btn-primary";
+        const sign = document.getElementById("likeSign");
+        sign.style.transform = "translateY(-5px)";
+        setTimeout(function (){
+            sign.style.transform = "translateY(0px)";
+        }, 400);
+        if (typeof(Storage) !== "undefined") {
+            localStorage.setItem("like7", "true");
+        }
+        const Http = new XMLHttpRequest();
+        const url = "/document/7?val=1&d=1";
+        Http.open("GET", url);
+        Http.send();
+        document.getElementById("likeNum").innerText = parseInt(document.getElementById("likeNum").innerText) + 1 + "";
+    }else{
+        like.className = "btn btn-outline-primary";
+        if (typeof(Storage) !== "undefined") {
+            localStorage.setItem("like7", "false");
+        }
+        const Http = new XMLHttpRequest();
+        const url = "/document/7?val=-1&d=1";
+        Http.open("GET", url);
+        Http.send();
+        document.getElementById("likeNum").innerText = parseInt(document.getElementById("likeNum").innerText) - 1 + "";
+    }
+}
+function load(){
+    if(localStorage.getItem("like7") == "true"){
+        like.className = "btn btn-primary";
+    }
+}
+      </script>
+      <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="border-style: none">
+  <div class="modal-dialog modal-dialog-centered" style="border-style: none">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color: rgb(88, 193, 187);">
+        <h5 class="modal-title" id="exampleModalLabel" style="margin-left: auto; color: white; font-size: 1.5em">Contact Us</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" style="padding-left: 20%; padding-right: 20%;">
+        <div style="position: relative;">
+            <i class="fas fa-envelope" style="color: rgb(88, 193, 187); font-size: 2em"></i>
+            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 250px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">tina_sheng@palmdrive.cn</span>
+        </div>
+          <br>
+        <div style="position: relative;">
+            <i class="fab fa-weixin" style="color: rgb(88, 193, 187); font-size: 1.9em"></i>
+            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 250px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">tinasheng002</span>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal" style="background-color: rgb(88, 193, 187); border-style: none; margin-left: auto; margin-right: auto; font-size: 1.3em; border-radius: 0.5em">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </body>
+</html>

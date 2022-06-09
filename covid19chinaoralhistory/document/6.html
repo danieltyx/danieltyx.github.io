@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <style>body{
+    font-family: "segoe ui emoji";
+}
+      #image1{
+    margin-top: 20px;
+}
+
+#intro{
+    border-style: solid;
+    border-radius: 10px;
+    margin: auto;
+    width: 70%;
+    margin-top: 30px;
+}
+
+#contentArea{
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#CommentArea{
+    width: 58%;
+    background-color: rgb(240, 238, 243);
+    margin: auto;
+    border-radius: 5px;
+    border-color: darkgray;
+    border-style: solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#commentTitle{
+    margin-left: 20px;
+}
+
+.comment{
+    margin-left: 50px;
+}
+
+.fa-thumbs-up{
+    transform: scale(1.5, 1.5);
+    margin-left: 30px;
+}
+
+.liketext{
+    margin-left: 10px;
+}
+
+#commentForm{
+    width: 100%
+}
+
+#like{
+    margin-right: 20px;
+    width: 13%;
+}
+
+#txtarea{
+    width: 70%; 
+    border-radius: 5px; 
+    height: auto;
+}
+
+#PostPost{
+    width: 10%; 
+    margin-left: 10px; 
+    position: relative; 
+    top: 3px;
+}
+          #template{
+              display: grid;
+              grid-template-columns: 70% 30%;
+              grid-template-areas: "cont side";
+          }
+      </style>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>COVID-19 China Project</title>
+<link href="../css/all.min.css" rel="stylesheet">
+  </head>
+  <body style="background-color: rgb(240, 238, 243)"  onload="load();">
+    <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <div id="page">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(96, 196, 188)">
+          <a class="navbar-brand" href="../index.html" style="font-weight: bold; font-family: 'adelle-sans' sans-serif;">COVID-19 China Project</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item ">
+                <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              
+              <li class="nav-item ">
+                <a class="nav-link" href="../about.html">About <span class="sr-only">(current)</span></a>
+              </li>
+              
+              <li class="nav-item active">
+                <a class="nav-link" href="../browsestory.html">Browse Story <span class="sr-only">(current)</span></a>
+              </li>
+              
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#exampleModal" data-toggle="modal">Contact Us <span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div id="template">
+            <div style="grid-area: cont">
+                <h3 style="text-align: center; padding-top: 20px;">How is My Life During City’s Lockdown Period ---- narrative of a local Hubei resident</h3>
+                <div id="intro" style="padding: 20px">
+                Our interviewee, Mr. Lin, is a company manager in Guangzhou. During New Year in 2020, he went back to his hometown Hubei to celebrate New Year, however, he was stuck there due to the outbreak of the epidemic and spend months at home for quarantine. During most of the time, Mr. Lin kept a positive mood and used this time as a chance for record and reflection on his life. Also, he wants to express his sincere appreciation for the medical stuffs who worked on the first-line of the epidemic.
+                </div>
+                <div id="contentArea">
+                    <h5 style="text-align: center; font-weight: bold">Back to my Hometown</h5>
+                    <p>	I live in a village in Tuanfeng town, Huanggang city, Hubei province, during quarantine. I grew up in this village as an indigenous Hubei citizen. After I graduated from college in 2014, I moved to Guangzhou to seek job and I spent five years working there. During this New Year, I come back here, where I spent all my childhood - Hubei.</p>
+                    <p>	When my holiday just started, I packed my luggage excitedly at my place in Guangzhou. On the night of Jan 20th, I was discussing with my friends about whether I should go back to Hubei for New Year or not. Due to the tradition of ancestor worship annually, I decided to go and spend my New Year with family. On the night a day before I set out, my family told me about COVID-19 and wanted me to stay where I am. But I didn’t expect the situation to get worse like this fast, I thought it is just a sort of flu and didn’t imagine that it has such a strong contagion.</p>
+                    <h5 style="text-align: center; font-weight: bold">COVID-19 Outbreak</h5>
+                    <p>	On the third day after I arrived in my hometown, Hubei started to lock down. The city with the highest incidence of coronavirus, Wuhan, is the first city to lockdown. In the afternoon after Wuhan locked down, other cities in Hubei province, such as Huanggang and Ezhou, gradually locked down as well. Communities in downtown forbid any entry or exit, and everyone in the community must hold the pass hand out by the official staff. The same policies applied to other towns in Hubei and the subordinate villages as well. People can only walk in and out the community on the first day of lockdown. On the second day, no one can enter or leave the community except governor officers and appointed staff. After hearing this news, I just realized that this epidemic is much more serious than I thought.</p>
+                    <p>	My hometown has the tradition of storing food for New Year. After New Year passed for a week, the food supply in each family is not adequate enough. When such situations happened, the village officers will buy all the food sources and provide villagers daily supplies. At first, officers only provide basic food materials such as rice and cooking oil. However, for kids, the needs for candy, toys and fruits are hard to meet. Therefore, at the peak of the epidemic, those needs, especially at rural places, are too much to ask for. Even if someone successfully sneaks out, those commodities can only be purchased with vouchers. But for me, I am really satisfied with the supplies that I have under the hard condition of quarantine.</p>
+                    <h5 style="text-align: center; font-weight: bold">Daily life</h5>
+                    <p>	In our village, the village committees, who are appointed by the village head, is responsible for material procurements in downtown. They usually visit every house and note down the house numbers and needs before purchase. At the same time, we have a Wechat group with all of the representatives of families and village committees in it. After all these procedures, the procurement staff will go to the appointed stores in town and purchase the commodities. After they return to the village, they will deliver the items to each house from outside of the fence or walls. They will try their best to fulfill our needs, however, they cannot guarantee to meet everyone’s needs. For instance, sometimes we asked for fruits or snacks but the village committee told us it is impossible to buy that. And lately I see videos about patients dying due to the virus or the ‘heroes’ work on the first-line around the clock, I am really touched by these. Therefore, under this situation, I think there is nothing better in life than having enough food to eat and having a chance to breathe.</p>
+                    <p>	During the quarantine, we all stayed at home even there is the New Year tradition of visiting families in the community. Therefore, we practiced this tradition instead of calls or facetimes. At the most dangerous time, there were police and village committee patrol outside at risk. Once they see a villager hanging outside, they will send him back home. I found that the hardest part of staying at home is all about mentality. It might be easier for the elders, but for us, as younger generations, we all felt a bit impetuous. But I feel nothing when I recall back now, with the people working continuously on the first-line in mind, the only thing that I can do to help them is staying at home patiently without adding more trouble for them.</p>
+                    <p>	I didn’t step out from my house even once until now. I only walk in the backyard when the situation is slightly stabilized. Our village is lucky, speaking in terms of zero case confirmed. Now, there is an online platform launched in Hubei, which uses for receiving a ‘health code’ once you are unsuspicious for 14 days; having this code, you can move freely once the situation is under full control. </p>
+                    <p>	Talking about news spreading, the village committee announces announcements on the Wechat group or through speakers. At the same time, they also spray alcohol on the main streets in order to ensure public safety. Additionally, they distribute certain amounts of masks to permanent households regularly. Take the example of my family, the village committee hands out four masks every three days as we have four members in the family. Due to the fact that we don’t go out frequently, plus we stored some masks in advance, there should be enough masks for us to deal with the epidemic.</p>
+                    <p>	I like to read during the time at home. I also watch news on CCTV with my family everyday. All the news about suspicious or confirmed cases upset us, and I am afraid of further expansion if the situation cannot be controlled efficiently. From apps such as Tiktok, I get to know more about the lives of medical staff. They wear protective suits all day long to fight with the virus, I think they are mighty. Once the situation stabilized a bit, I started online working. Of course, there are certainly some obstacles working online since it can’t be as convenient as in the office. Fortunately, my company handles the situation really well. The company pays salary on time and comforts us to stay at home patiently, saying that they will save the job spots for us. However, due to the fact that Hubei is the hardest hit area, it is definitely a hard time for people who are seeking jobs. Thus, I really do hope that people will not look at Hubei people with different eyes after the epidemic ceases. This epidemic is both inevitable and occasional, it occasionally started in Hubei and we can’t help with it, the only thing we can do is to accept the fact and pray for a quick end. As I stay at home for this long, I am really looking forward to restarting my job.</p>
+                    <h5 style="text-align: center; font-weight: bold">Ending</h5>
+                    <p>	Speak at the end, as a Chinese, I am satisfied with the timely response made by our government. At the early stage of the epidemic, the government made the decision to lock down the whole province, but not only a city. I really felt the cohesion of the society from this event. Hubei citizens are all grateful for the mental and material support from people in other places. It is your kindly actions that serve as the biggest support for us, and it is all these contributions that made us pass this plight. No one can understand the difficulty and sacrifice people made if you are outside this hardest hit area. I wish for no more epidemic after this, at the same time, I wish my country can be flourished and peaceful in the future.</p>
+                    <p style="font-style: italic">Mr. Lin is back to work normally now. He went back to Guangzhou healthily. He hopes everyone can be safe after COVID-19 and no more large-scale epidemic in the future.</p>
+                </div>
+                
+            </div>
+            <div style="grid-area: side; margin-top: 40px">
+                <p style="font-size: 1.3em"><strong>Interviewed By</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">Ariel</p>
+                <p style="font-size: 1.3em"><strong>Interviewee</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">Mr. Lin (anonymous)</p>
+                <p style="font-size: 1.3em"><strong>Interview Date</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">3/10/2020</p>
+                <p style="font-size: 1.3em"><strong>Occupation</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">Company Manager</p>
+            </div>
+        </div>
+        <hr>
+        <div id="CommentArea">
+           <div style="background-color: beige">
+                <h3 id="commentTitle">comments</h3>
+                <hr>
+            </div>
+            
+                <div class="comment">
+                <p><p><br>
+            </div>
+            <hr>
+            
+            <form class="form-inline" method="get">
+               <div class="form-group mx-sm-3 mb-2" id="commentForm">
+                   <button id="like" type="button" class="btn btn-outline-primary" onclick="pressLike()">
+                       <i class="fa fa-chevron-up" aria-hidden="true" id="likeSign" style="transition: transform 0.5s;"></i>
+                       Like <span id="likeNum">2</span>
+                   </button>
+                   
+                   <textarea class="form-control" id="txtarea" rows="1" placeholder="Write Comments!" name="comment"></textarea>
+                    <button type="submit" class="btn btn-primary mb-2" id="PostPost">Post</button>
+                </div>
+            </form>
+            </div>
+        </div>
+        <footer style="background-color: rgb(96, 196, 188); margin: auto">
+          <div class="footer-copyright text-center py-3">© 2020 PalmDrive. All Rights Reserved
+          </div>
+        </footer>
+        <script>
+      function myFunction(x){
+    if(x.className == "far fa-thumbs-up"){
+        x.className = "fas fa-thumbs-up";
+    }else{
+        x.className = "far fa-thumbs-up";
+     }
+}
+function expandTextarea(id) {
+    document.getElementById(id).addEventListener('keyup', function() {
+        this.style.overflow = 'hidden';
+        this.style.height = 0;
+        this.style.height = this.scrollHeight + 'px';
+    }, false);
+}
+
+expandTextarea('txtarea');
+
+function pressLike(){
+    let like = document.getElementById("like");
+    if(like.className == "btn btn-outline-primary"){
+        like.className = "btn btn-primary";
+        const sign = document.getElementById("likeSign");
+        sign.style.transform = "translateY(-5px)";
+        setTimeout(function (){
+            sign.style.transform = "translateY(0px)";
+        }, 400);
+        if (typeof(Storage) !== "undefined") {
+            localStorage.setItem("like6", "true");
+        }
+        const Http = new XMLHttpRequest();
+        const url = "/document/6?val=1&d=1";
+        Http.open("GET", url);
+        Http.send();
+        document.getElementById("likeNum").innerText = parseInt(document.getElementById("likeNum").innerText) + 1 + "";
+    }else{
+        like.className = "btn btn-outline-primary";
+        if (typeof(Storage) !== "undefined") {
+            localStorage.setItem("like6", "false");
+        }
+        const Http = new XMLHttpRequest();
+        const url = "/document/6?val=-1&d=1";
+        Http.open("GET", url);
+        Http.send();
+        document.getElementById("likeNum").innerText = parseInt(document.getElementById("likeNum").innerText) - 1 + "";
+    }
+}
+function load(){
+    if(localStorage.getItem("like6") == "true"){
+        like.className = "btn btn-primary";
+    }
+}
+      </script>
+      <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="border-style: none">
+  <div class="modal-dialog modal-dialog-centered" style="border-style: none">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color: rgb(88, 193, 187);">
+        <h5 class="modal-title" id="exampleModalLabel" style="margin-left: auto; color: white; font-size: 1.5em">Contact Us</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" style="padding-left: 20%; padding-right: 20%;">
+        <div style="position: relative;">
+            <i class="fas fa-envelope" style="color: rgb(88, 193, 187); font-size: 2em"></i>
+            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 250px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">tina_sheng@palmdrive.cn</span>
+        </div>
+          <br>
+        <div style="position: relative;">
+            <i class="fab fa-weixin" style="color: rgb(88, 193, 187); font-size: 1.9em"></i>
+            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 250px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">tinasheng002</span>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal" style="background-color: rgb(88, 193, 187); border-style: none; margin-left: auto; margin-right: auto; font-size: 1.3em; border-radius: 0.5em">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </body>
+</html>

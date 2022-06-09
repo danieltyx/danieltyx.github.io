@@ -1,0 +1,111 @@
+body{
+    font-family: "segoe ui emoji";
+}
+#mediaContainer{
+    background-color: beige;
+    background-image: url('../dummy.jpg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 40%;
+    margin: auto;
+    height: 200px;
+    margin-top: 30px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+#centerText{
+    margin: auto;
+    width: 50%;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(140, 170, 167);
+    
+}
+
+.container{
+    margin: auto;
+    width: 70%;
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+#footer{
+    background-color: rgb(96, 196, 188);
+    margin: auto;
+}
+
+#buttonsC{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: "B S"
+                         "A C";
+    padding-left: 100px;
+    padding-right: 100px;
+    row-gap: 50px;
+    justify-items: center;
+}
+
+#Browse{
+    grid-area: B;
+    background-color: rgb(240, 238, 243);
+    width: 300px;
+    height: 250px;
+    border-radius: 0.5em;
+    text-align: center;
+}
+
+#Share{
+    grid-area: S;
+    background-color: rgb(240, 238, 243);
+    width: 300px;
+    height: 250px;
+    border-radius: 0.5em;
+    text-align: center;
+}
+
+#About{
+    grid-area: A;
+    background-color: rgb(240, 238, 243);
+    width: 300px;
+    height: 250px;
+    border-radius: 0.5em;
+    text-align: center;
+}
+
+#Contact{
+    grid-area: C;
+    background-color: rgb(240, 238, 243);
+    width: 300px;
+    height: 250px;
+    border-radius: 0.5em;
+    text-align: center;
+}
+
+#page{
+    width: 80%;
+}
+
+@media only screen and (max-width: 600px) {
+  #page{
+    width: 100%;
+    }
+    
+    #buttonsC{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: "B"
+                        "S"
+                         "A"
+                        "C";
+    row-gap: 50px;
+    justify-items: center;
+}
+}

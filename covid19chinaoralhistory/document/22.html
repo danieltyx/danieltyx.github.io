@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <style>body{
+    font-family: "segoe ui emoji";
+}
+      #image1{
+    margin-top: 20px;
+}
+
+#intro{
+    border-style: solid;
+    border-radius: 10px;
+    margin: auto;
+    width: 70%;
+    margin-top: 30px;
+}
+
+#contentArea{
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#CommentArea{
+    width: 58%;
+    background-color: rgb(240, 238, 243);
+    margin: auto;
+    border-radius: 5px;
+    border-color: darkgray;
+    border-style: solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#commentTitle{
+    margin-left: 20px;
+}
+
+.comment{
+    margin-left: 50px;
+}
+
+.fa-thumbs-up{
+    transform: scale(1.5, 1.5);
+    margin-left: 30px;
+}
+
+.liketext{
+    margin-left: 10px;
+}
+
+#commentForm{
+    width: 100%
+}
+
+#like{
+    margin-right: 20px;
+    width: 13%;
+}
+
+#txtarea{
+    width: 70%; 
+    border-radius: 5px; 
+    height: auto;
+}
+
+#PostPost{
+    width: 10%; 
+    margin-left: 10px; 
+    position: relative; 
+    top: 3px;
+}
+          #template{
+              display: grid;
+              grid-template-columns: 70% 30%;
+              grid-template-areas: "cont side";
+          }
+      </style>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>COVID-19 China Project</title>
+<link href="../css/all.min.css" rel="stylesheet">
+  </head>
+  <body style="background-color: rgb(240, 238, 243)"  onload="load();">
+    <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <div id="page">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(96, 196, 188)">
+          <a class="navbar-brand" href="../index.html" style="font-weight: bold; font-family: 'adelle-sans' sans-serif;">COVID-19 China Project</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item ">
+                <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              
+              <li class="nav-item ">
+                <a class="nav-link" href="../about.html">About <span class="sr-only">(current)</span></a>
+              </li>
+              
+              <li class="nav-item active">
+                <a class="nav-link" href="../browsestory.html">Browse Story <span class="sr-only">(current)</span></a>
+              </li>
+              
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#exampleModal" data-toggle="modal">Contact Us <span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div id="template">
+            <div style="grid-area: cont">
+                <h3 style="text-align: center; padding-top: 20px;">We can only learn to adapt</h3>
+                <div id="intro" style="padding: 20px">
+                Zhu Liping was born in Jilin Province, in the northeast of China, but she has been living in Beijing for 50 years. As a retired mother, her life is focused around her husband and her 13-year-old daughter. During the COVID-19 outbreak, she deeply felt the inconvenience caused by life under quarantine. She has witnessed the challenges faced by her husband and daughter, while also trying to adapt to changes herself. For her, being far from the center of the epidemic does not prevent her from caring about the development of the epidemic. In the interview, Zhu illustrated her experience during the pandemic. She hoped to obtain more authentic news and called on the government to increase the transparency of latest information.
+                </div>
+                <div id="contentArea">
+                    <h5 style="text-align: center; font-weight: bold">My life</h5>
+                    <p>My name is Zhu Liping and I will be 51 years old this year.</p>
+                    <p>I came to Beijing to live when I was one year old, so it's been fifty years now. This city is developing very fast: there are more high-rise buildings, and the pace of life is getting ever faster. Beijing now looks very prosperous, and the development, transportation and food delivery services have made life even more convenient. But I think this city lacks warmth: as the city expands, the distance between people gets farther away. There is seldom the feeling of truly living, which makes me feel isolated.</p>
+                    <p>Before the outbreak, I follow a routine schedule. After getting up at six a.m., I begin to prepare breakfast for my kid before sending her to school. Because I have retired, I usually read books, watch the news, clean up the room, buy vegetables, and cook at home before picking her up at 4p.m.</p>
+                    <p>For a person like me who stays at home, the essential elements in life are probably a mobile phone for reading news, a book to pass the time, interesting TV series, and some friends who I get along with. Of course, family is also very important. I value the time where family members can be together, and the chance to have some communication. These are about the things I value most at this stage.</p>
+                    <p>My current life is quite in line with ideals. I think people have a certain ability to adapt. I used to be a busy, playful, and running person, but now I have also found a new equilibrium. Maybe I used to be willing to run around, but now I stay at home for various reasons. I think it's okay, but not completely the ideal life I imagined</p>
+                    <h5 style="text-align: center; font-weight: bold">A sudden new life</h5>
+                    <p>After the outbreak, my life was also affected. I didn't have the habit of hoarding things before, e.g. I always think of what to cook on that day and buy grocery afterwards. Now there is a certain risk of infection of going to the market, and our district is also concealed with only one entrance. I need to walk for a long way to buy groceries, so now I just order online and pick them up regularly. When the epidemic was at its peaks, I never went downstairs except to pick up food. Later, as the epidemic situation began to improve is when I only started to take a walk downstairs. From the end of January to now, it has always been like this; except that the number of times I go downstairs increases as the epidemic alleviates, at other times I go out as little as possible. Of course, I have never stopped walking my dog even during the worst of the epidemic once a day considering it’s also growing in age.</p>
+                    <p>Quarantine has caused quite a lot of inconvenience for me. For example, the food and other delivery services used to be sent directly to my doors, but now I have to pick them up at the gates of the neighborhood. I always need to wear gloves and mask every time I collect them and disinfect these things after I come back. The same is true for picking up groceries; generally, I order the groceries several days ahead of time, so I must plan in advance what dishes I will cook in the next few days and pay attention to which dishes are more likely to go bad. My daughter used to have only breakfast and dinner at home, but now I need to provide three meal a day. I am also very worried about whether she has concentrated in online classes and the effect of learning online. Moreover, the child has been away from school for a long time and missed her classmates and friends, so I also need to talk to her. These difficulties permeate everyday life. We can only overcome it slowly and persuade ourselves to adapt, because we can't change any of these situations.</p>
+                    <p>My family basically consists of my husband and the child, and she are still young after all. My husband used to be engaged in education services; now because no offline education is allowed, so the workload was very heavy when it was first changed to online. We had family meetings every night to discuss how to deal with the difficulties encountered now. Nevertheless, everyone realized that the current problem cannot be overcome by individual efforts because it is a national problem. Thinking of this, we have no choice but to wait for the epidemic to slowly end. Like I said, we can only adapt to the new life as much as possible.</p>
+                    <p>In fact, I personally don't really accept online education. I also discussed this issue with her teacher yesterday, and it seems that going back on-campus is not a goal that can be achieved in the short-term. Online teaching is basically self-study, Q&A, and on-demand classes, but some parents have suggested that they should be live. I always think that it is better to take classes in school, because some words and knowledge points that the teacher said as a side thought may actually be a particularly good comment. I think in terms of learning effects, there is definitely a difference between online and offline, but yesterday some parents said that teachers may be more fully prepared and teach better in videotaped classes, and the requirements for students’ focus are also higher. You can also listen to the class repeatedly. Because there is no quiz, I don’t know how effective the online teaching is. I certainly hope that school will start as soon as possible; I think the child is really lonely at home. She really missed her classmates, but unfortunately there is nothing she can do now.</p>
+                    <h5 style="text-align: center; font-weight: bold">Quarantine</h5>
+                    <p>I don't have any protection techniques. Everyone said disinfection is crucial, so I also bought medical alcohol. At the beginning, there were no masks at home, so we asked a lot of people to help with stocking masks and shared. Now I am accustomed to using alcohol to wipe things (including courier boxes), and to wipe the furniture with disinfectant once every two days. We also bought protective goggles, which can be worn when we go to the supermarket. The most important thing is to wash hands and clothes that had been worn outside; now it is definitely not as frequent as before. Because we have never been to crowded places, there are no specific protective measures.</p>
+                    <p>Around the night before the Spring Festival, the situation in Beijing began to become severe. Our New Year gatherings were also cancelled, and all gatherings were cancelled later. Until the end of February, I didn't have any physical exercise except walking the dog. For the child, there are 30 minutes of online physical education every day, but there is still a big difference between exercise at home and under the sun. Online PE classes are basically following the videos recorded by the teacher in advance to do exercises, such as warm-up exercises, strength exercises, and core exercises. In class, the teacher opening a meeting room; the children sign in first, and then follow the teacher's instructions to complete the exercises on the video. After 30 minutes, the child is actually quite tired, but I think it is still different from aerobic exercise. To be honest, we all feel that our physical strength is really not as good as before; the child took advantage of the good weather to go out and ran a lap two days ago and tired out. People also tend to be lazy when they stay at home, so we really didn't do very well in exercising.</p>
+                    <p>Through this epidemic, I have developed a good habit of washing my hands frequently, as well as touching my face less. These are some things that I usually do inadvertently. Now when I think about rubbing my eyes, I wonder if there will be the virus, so I don't think I should rub my eyes before washing my hands. So, the basic habit to develop is to touch your nose and eyes less and wash your hands frequently. Maybe in the future, I will gradually develop habits such as wearing disposable gloves.</p>
+                    <p>During the epidemic, I tried my best to maintain calm. I am also anxious and irritable sometimes; I also admit that facing the kid every day, I am especially prone to be suddenly irritable. Especially when I watch my child come out for a stroll from time to time while studying, I always worry about "Is online teaching OK? Is the learning effect good?" Besides, I have to take care of her lunch; for a long time, we didn’t order takeaways, there’s not enough food, and I feel very anxious when I think about the nutrition of my children. Many things in life will bring pressure. Under such pressure, I will feel so annoying, but after I have calmed down, I will return to normal. I think the most important thing is to self-regulate, and I can only convince myself; now that the time is long, this anxiety will gradually fade.</p>
+                    <h5 style="text-align: center; font-weight: bold">Major events in combating the pandemic</h5>
+                    <p>There are so much news every day, and so many information. For me personally, I still hope to return to the normal life. Every time I see news of the spread of the epidemic, I think of the indefinite extension of quarantine. It upsets me. The situation in different countries is definitely not the same; for example, the United Kingdom said at the beginning of collective immunization and not wearing masks...I don’t know whether it is traditional or not, Chinese people are very obedient. If you have a mask, you must wear it. Even if there are no new cases in Beijing now, everyone in our community still wears masks when they go out. So, I still hope that people all over the world will work hard together, and I hope to return to normal as soon as possible.</p>
+                    <p>There are still many things that I remember during the quarantine. I have always been at home, far from the center of the epidemic, but I am very concerned about the development of the epidemic, so I check news regularly. My ways of learning about the situation is relatively simple. I basically look at Toutiao and WeChat moments: some friends knows more ways to get information and they post things like screenshots in WeChat. Those are the two channels I’ve been watching from. At first, I paid attention to the incident of the whistleblower Li Wenliang and the interview with Ai Fen. Later, I also noticed Fang Fang's diary. I was very impressed by these events, especially the Weibo that Li Wenliang posted after his death: even after he died, there are still tens of thousands of people leaving comments for him under his Weibo. I am very moved by these. Although I don’t know if it’s appropriate to say so, but there are indeed some things that we can only hear from others but can’t see for ourselves, so what we as the general public care about most is what’s real: whether Wuhan or Hubei as a whole, we all want to see the REAL news. Sometimes I feel upset if these real-time updates are not posted. Another news that shocked me is that because some people think pets may carry viruses, they abandoned them or even threw them out of the building. I was very upset upon seeing these. At that time, the country was only reporting this news instead of making an effort in leading the public to take a scientific and positive view at this. For example, when this problem has arisen, the country should mark that it is only individual cases, and there is no evidence to prove it. Even though there were only a couple of reports that day, when I was walking the dog in the community, I found that many people would deliberately stay away from me. I can feel that kind of scrutiny, so I hope the country can do a better job in this regard.</p>
+                    <p>When the epidemic first broke out, I recalled the time of SARS in 2003. I think this time it seems to be much worse. At that time, I was still at work and taking the subway every day. I never remembered that I had worn a mask. As an ordinary person, my opinion is to listen to the experts, because you certainly can't have a deep understanding of this virus yourself. So, our behaviors basically depends on the judgment of experts. For example, we disinfect and wear masks when we are told to. I think from the perspective of the combating the disease, China has done quite well despite the huge costs. Of course, other countries have their own problems to deal with. I still approve of some of the government’s measures given that China can control the pandemic to this situation in a fairly short amount of time.</p>
+                    <h5 style="text-align: center; font-weight: bold">Helplessness and expectation</h5>
+                    <p>During the quarantine, it was my parents who worried me the most. My father has been hospitalized and my mother has been staying with him. In the past, we could visit at least once every week, and we can also take care of father and let mother have a rest. Now because of the epidemic, we are not allowed to visit, and the hospital does not allow entrance, so we can only contact by phone. My mother can only take care of my father by herself with no other option. After all, the parents are also aging, and they don't have that much bearing capacity. However, we can’t do anything now. At this time, I am really worried. It may be more assuring if my parents are okay. But if anything happens to them, I can’t even see them. That’s just intimidating.</p>
+                    <p>I may be kind of radical, but I think it is possible to reopen schools now. Although the considerations vary from person to person, I think it’s safe to reopen school now. As long as the school perform well in disinfection and quarantine measures, such as asking everyone to wear masks or let the teacher reminds everyone from time to time to wash their hands frequently, it seems pretty safe to me. Of course, when I was having a conversation with my neighbors, some people also felt that compared to health, it is not a big deal to lose a few days of classes, so it would be better to keep schools closed if possible. Nevertheless, I myself feel that school can open already. People are ultimately social animals. Adults who live at home for a long time may still be able to adjust, but it is bad for the development of kids if they are always alone. Fortunately, the situation is a little better now, and she can at least meet her friends in the same community daily. Even this meeting wasn’t possible until early April. In the past two months, it’s not possible to see anyone and we just stayed at home every day, literally… Although children would not be particularly irritable or anxious, I think this is definitely not good for their growth. Anyway, I am in favor of reopening classes as soon as possible, but who are we to talk? No one knows what the government’s considerations.</p>
+                    <p>Finally, I don't know how influential this interview will be, but I still hope that the Chinese government's information can be more transparent. Take the closing of schools as an example, I wish they enable us to have a clear notion of the exact date the schools will be closed at this stage. And if the situation has not improved by then, they can keep schools closed for another two weeks, but we should get a clear concept. Now it’s just changing day by day, and no one has an accurate message which gives no sign of hope. There is never an idea of to what extent should the pandemic be controlled can schools reopen. I used to think that it will happen once there are no new cases, but now the number of cases have stopped growing for a long time. At least where I live, there are no new local cases. But no one talked about reopening schools and we just have to wait indefinitely.</p>
+                    <p style="font-style: italic">Despite her sole outdoor activity of walking the dog, Wang Liping can only stay quarantined. At home, she kept up to date on news and the development of the pandemic at all times. Although they have adapted to life under the epidemic, she still wishes, above all else, for her daughter to return to school. She will continue to focus on the real-time conditions of the pandemic and hope that the government can send notices about returning to campus as soon as possible.</p>
+                </div>
+            </div>
+            <div style="grid-area: side; margin-top: 40px">
+                <p style="font-size: 1.3em"><strong>Interviewed By</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">Wang Xiaochun</p>
+                <p style="font-size: 1.3em"><strong>Interviewee</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">Zhu Liping</p>
+                <p style="font-size: 1.3em"><strong>Interview Date</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">4/7/2020</p>
+                <p style="font-size: 1.3em"><strong>Occupation</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">Retired</p>
+            </div>
+        </div>
+        <hr>
+        <div id="CommentArea">
+           <div style="background-color: beige">
+                <h3 id="commentTitle">comments</h3>
+                <hr>
+            </div>
+            
+            <form class="form-inline" method="get">
+               <div class="form-group mx-sm-3 mb-2" id="commentForm">
+                   <button id="like" type="button" class="btn btn-outline-primary" onclick="pressLike()">
+                       <i class="fa fa-chevron-up" aria-hidden="true" id="likeSign" style="transition: transform 0.5s;"></i>
+                       Like <span id="likeNum">NaN</span>
+                   </button>
+                   
+                   <textarea class="form-control" id="txtarea" rows="1" placeholder="Write Comments!" name="comment"></textarea>
+                    <button type="submit" class="btn btn-primary mb-2" id="PostPost">Post</button>
+                </div>
+            </form>
+            </div>
+        </div>
+        <footer style="background-color: rgb(96, 196, 188); margin: auto">
+          <div class="footer-copyright text-center py-3">© 2020 PalmDrive. All Rights Reserved
+          </div>
+        </footer>
+        <script>
+      function myFunction(x){
+    if(x.className == "far fa-thumbs-up"){
+        x.className = "fas fa-thumbs-up";
+    }else{
+        x.className = "far fa-thumbs-up";
+     }
+}
+function expandTextarea(id) {
+    document.getElementById(id).addEventListener('keyup', function() {
+        this.style.overflow = 'hidden';
+        this.style.height = 0;
+        this.style.height = this.scrollHeight + 'px';
+    }, false);
+}
+
+expandTextarea('txtarea');
+
+function pressLike(){
+    let like = document.getElementById("like");
+    if(like.className == "btn btn-outline-primary"){
+        like.className = "btn btn-primary";
+        const sign = document.getElementById("likeSign");
+        sign.style.transform = "translateY(-5px)";
+        setTimeout(function (){
+            sign.style.transform = "translateY(0px)";
+        }, 400);
+        if (typeof(Storage) !== "undefined") {
+            localStorage.setItem("like22", "true");
+        }
+        const Http = new XMLHttpRequest();
+        const url = "/document/22?val=1&d=1";
+        Http.open("GET", url);
+        Http.send();
+        document.getElementById("likeNum").innerText = parseInt(document.getElementById("likeNum").innerText) + 1 + "";
+    }else{
+        like.className = "btn btn-outline-primary";
+        if (typeof(Storage) !== "undefined") {
+            localStorage.setItem("like22", "false");
+        }
+        const Http = new XMLHttpRequest();
+        const url = "/document/22?val=-1&d=1";
+        Http.open("GET", url);
+        Http.send();
+        document.getElementById("likeNum").innerText = parseInt(document.getElementById("likeNum").innerText) - 1 + "";
+    }
+}
+function load(){
+    if(localStorage.getItem("like22") == "true"){
+        like.className = "btn btn-primary";
+    }
+}
+      </script>
+      <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="border-style: none">
+  <div class="modal-dialog modal-dialog-centered" style="border-style: none">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color: rgb(88, 193, 187);">
+        <h5 class="modal-title" id="exampleModalLabel" style="margin-left: auto; color: white; font-size: 1.5em">Contact Us</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" style="padding-left: 20%; padding-right: 20%;">
+        <div style="position: relative;">
+            <i class="fas fa-envelope" style="color: rgb(88, 193, 187); font-size: 2em"></i>
+            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 250px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">tina_sheng@palmdrive.cn</span>
+        </div>
+          <br>
+        <div style="position: relative;">
+            <i class="fab fa-weixin" style="color: rgb(88, 193, 187); font-size: 1.9em"></i>
+            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 250px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">tinasheng002</span>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal" style="background-color: rgb(88, 193, 187); border-style: none; margin-left: auto; margin-right: auto; font-size: 1.3em; border-radius: 0.5em">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </body>
+</html>

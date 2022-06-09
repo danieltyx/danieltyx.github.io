@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <style>body{
+    font-family: "segoe ui emoji";
+}
+      #image1{
+    margin-top: 20px;
+}
+
+#intro{
+    border-style: solid;
+    border-radius: 10px;
+    margin: auto;
+    width: 70%;
+    margin-top: 30px;
+}
+
+#contentArea{
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#CommentArea{
+    width: 58%;
+    background-color: rgb(240, 238, 243);
+    margin: auto;
+    border-radius: 5px;
+    border-color: darkgray;
+    border-style: solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#commentTitle{
+    margin-left: 20px;
+}
+
+.comment{
+    margin-left: 50px;
+}
+
+.fa-thumbs-up{
+    transform: scale(1.5, 1.5);
+    margin-left: 30px;
+}
+
+.liketext{
+    margin-left: 10px;
+}
+
+#commentForm{
+    width: 100%
+}
+
+#like{
+    margin-right: 20px;
+    width: 13%;
+}
+
+#txtarea{
+    width: 70%; 
+    border-radius: 5px; 
+    height: auto;
+}
+
+#PostPost{
+    width: 10%; 
+    margin-left: 10px; 
+    position: relative; 
+    top: 3px;
+}
+          #template{
+              display: grid;
+              grid-template-columns: 70% 30%;
+              grid-template-areas: "cont side";
+          }
+      </style>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>COVID-19 China Project</title>
+<link href="../css/all.min.css" rel="stylesheet">
+  </head>
+  <body style="background-color: rgb(240, 238, 243)"  onload="load();">
+    <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <div id="page">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(96, 196, 188)">
+          <a class="navbar-brand" href="../index.html" style="font-weight: bold; font-family: 'adelle-sans' sans-serif;">COVID-19 China Project</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item ">
+                <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              
+              <li class="nav-item ">
+                <a class="nav-link" href="../about.html">About <span class="sr-only">(current)</span></a>
+              </li>
+              
+              <li class="nav-item active">
+                <a class="nav-link" href="../browsestory.html">Browse Story <span class="sr-only">(current)</span></a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#exampleModal" data-toggle="modal">Contact Us <span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div id="template">
+            <div style="grid-area: cont">
+                <h3 style="text-align: center; padding-top: 20px;">Everyone has a Bright Side</h3>
+                <div id="intro" style="padding: 20px">
+                Ms Guo Ying is a senior reporter of Shanghai Youth Daily. Because of a successful internship experience, she embarked on a career as a journalist without any media studies. Under the epidemic, Ms Guo’s work is very busy. She is very busy, had interviewed medical workers, community volunteers, grassroots cadres and other people of all kinds, wrote countless reports, and gained a lot of touch from their stories.
+                </div>
+                <div id="contentArea">
+                    <h5 style="text-align: center; font-weight: bold">I am a journalist</h5>
+                    <p>I like to read books, so I chose to major in books when I was older. Later, I also worked as an editor in a publishing house and engaged in writing-related work. This epidemic has a great impact on the work of our reporters. Since the beginning of the epidemic, every piece of news I wrote is related to the epidemic. The epidemic is a challenge and an opportunity for us, because a lot of good news, good people and things have emerged during the epidemic. This is something we rarely encounter when writing news. Everyone has bright spots on their bodies. In this epidemic, some ordinary people's bright spots broke out, which made us very moved.</p>
+                    <h5 style="text-align: center; font-weight: bold">We must be at the forefront</h5>
+                    <p>We journalist have a natural curiosity and a sense of responsibility to "prove historical events" and "tell everyone the truth." Under the epidemic, journalists rushed to the front line desperately. The thing that impressed me the most was to go to Minhang Children's Hospital to interview the young patient who was diagnosed. When we got there, a doctor stopped us. She said: "You can only go here, you can't go any further. The front is very dangerous. Everyone didn't flinch, which made me very "passionate." The doctor was just wearing a white coat and no protective clothing. For this reason, the reporters broke through the doctor’s human defense. The good news was also received during the interview. Children’s infections are mild, and infection with the new crown virus does not necessarily cause pneumonia. The small patients admitted are only respiratory infections. You can heal yourself with your immune system by ordering Chinese medicine. Wang Wenhong, an Internet celebrity doctor, is also full of personality charm.</p>
+                    <h5 style="text-align: center; font-weight: bold">The most beautiful volunteers and medical staff </h5>
+                    <p>During the epidemic, I wrote a lot of reports. There were volunteers and community workers. Everyone left a deep impression on me, and every story touched me because many people did things that I might not be able to do. of. Through this epidemic, my view on grassroots cadres has changed and I think they are amazing. For example, there is a white-collar worker in Lujiazui who works in a foreign bank. He said he had never thought that he would cut thread ends in his life, and he could cut thousands of pieces a day. Even if these young people cannot rush to the front line, they still want to do what they can and contribute to the society; a father who has been driving public transportation for 16 years took the initiative to ask, and together with his son became the Pudong Airport guard against the epidemic. ". One is responsible for measuring the body temperature of the entry personnel, and the other is responsible for sending the entry personnel to the isolation point or home for isolation. Their work places are only 300 meters apart, but due to isolation, they have not seen each other for half a month; a 26-year-old young man from Shanghai. There were originally 4 people guarding the lights of the Second Bridge of the River. During the Spring Festival, three colleagues went home for the New Year, and he stayed on duty. Therefore, he is the only one who sticks to the light every day, responsible for regulation and maintenance. Because he can't ride on the bridge, every time, in order to repair the malfunctioning lights, he has to run back and forth four times on the two-kilometer bridge. In the past, he has become a "runner"; a touching male nurse, from Shandong, works in Dahua Hospital. After learning about the lack of male nurses in Wuhan, he immediately signed up. His father was an auxiliary police officer in his hometown, fighting on the front line of local epidemic prevention. Due to fatigue, he suddenly suffered a cerebral hemorrhage and fell to the post. During the rescue, he urged his wife not to tell his son in Shanghai that he would get infected because he was anxious. The son went to Wuhan without telling his father, and the father was sent to the rescue room without telling his son. The son didn't learn about it until his father's condition improved. The first batch of rushed medical staff have returned triumphantly. In the near future, they will fulfill their mission and return with honor. This epidemic has tempered the younger generation. Facts have proved that they are trustworthy. This is where I am most delighted after writing so many epidemic reports.</p>
+                    <p style="font-style: italic">Today, the epidemic in China is relatively stable. But Ms Guo is still busy with her work, and at the same time paying attention to the epidemic abroad. It is with many reporters like Teacher Guo that we can get information about the epidemic in the first place and pay tribute to the hard-working reporters!</p>
+                </div>
+            </div>
+            <div style="grid-area: side; margin-top: 40px">
+                <p style="font-size: 1.3em"><strong>Interviewed By</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">Journalist</p>
+                <p style="font-size: 1.3em"><strong>Interviewee</strong></p>
+                <p style="font-style: italic; font-size: 1.3em"> Guo Ying</p>
+                <p style="font-size: 1.3em"><strong>Interview Date</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">3/18/2020</p>
+                <p style="font-size: 1.3em"><strong>Occupation</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">Journalist</p>
+            </div>
+        </div>
+        <hr>
+        <div id="CommentArea">
+           <div style="background-color: beige">
+                <h3 id="commentTitle">comments</h3>
+                <hr>
+            </div>
+            
+            <form class="form-inline" method="get">
+               <div class="form-group mx-sm-3 mb-2" id="commentForm">
+                   <button id="like" type="button" class="btn btn-outline-primary" onclick="pressLike()">
+                       <i class="fa fa-chevron-up" aria-hidden="true" id="likeSign" style="transition: transform 0.5s;"></i>
+                       Like <span id="likeNum">4</span>
+                   </button>
+                   
+                   <textarea class="form-control" id="txtarea" rows="1" placeholder="Write Comments!" name="comment"></textarea>
+                    <button type="submit" class="btn btn-primary mb-2" id="PostPost">Post</button>
+                </div>
+            </form>
+            </div>
+        </div>
+        <footer style="background-color: rgb(96, 196, 188); margin: auto">
+          <div class="footer-copyright text-center py-3">© 2020 PalmDrive. All Rights Reserved
+          </div>
+        </footer>
+        <script>
+      function myFunction(x){
+    if(x.className == "far fa-thumbs-up"){
+        x.className = "fas fa-thumbs-up";
+    }else{
+        x.className = "far fa-thumbs-up";
+     }
+}
+function expandTextarea(id) {
+    document.getElementById(id).addEventListener('keyup', function() {
+        this.style.overflow = 'hidden';
+        this.style.height = 0;
+        this.style.height = this.scrollHeight + 'px';
+    }, false);
+}
+
+expandTextarea('txtarea');
+
+function pressLike(){
+    let like = document.getElementById("like");
+    if(like.className == "btn btn-outline-primary"){
+        like.className = "btn btn-primary";
+        const sign = document.getElementById("likeSign");
+        sign.style.transform = "translateY(-5px)";
+        setTimeout(function (){
+            sign.style.transform = "translateY(0px)";
+        }, 400);
+        if (typeof(Storage) !== "undefined") {
+            localStorage.setItem("like28", "true");
+        }
+        const Http = new XMLHttpRequest();
+        const url = "/document/28?val=1&d=1";
+        Http.open("GET", url);
+        Http.send();
+        document.getElementById("likeNum").innerText = parseInt(document.getElementById("likeNum").innerText) + 1 + "";
+    }else{
+        like.className = "btn btn-outline-primary";
+        if (typeof(Storage) !== "undefined") {
+            localStorage.setItem("like28", "false");
+        }
+        const Http = new XMLHttpRequest();
+        const url = "/document/28?val=-1&d=1";
+        Http.open("GET", url);
+        Http.send();
+        document.getElementById("likeNum").innerText = parseInt(document.getElementById("likeNum").innerText) - 1 + "";
+    }
+}
+function load(){
+    if(localStorage.getItem("like28") == "true"){
+        like.className = "btn btn-primary";
+    }
+}
+      </script>
+      <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="border-style: none">
+  <div class="modal-dialog modal-dialog-centered" style="border-style: none">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color: rgb(88, 193, 187);">
+        <h5 class="modal-title" id="exampleModalLabel" style="margin-left: auto; color: white; font-size: 1.5em">Contact Us</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" style="padding-left: 20%; padding-right: 20%;">
+        <div style="position: relative;">
+            <i class="fas fa-envelope" style="color: rgb(88, 193, 187); font-size: 2em"></i>
+            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 280px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">tina_sheng@palmdrive.cn</span>
+        </div>
+          <br>
+        <div style="position: relative;">
+            <i class="fab fa-weixin" style="color: rgb(88, 193, 187); font-size: 1.9em"></i>
+            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 280px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">tinasheng002</span>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal" style="background-color: rgb(88, 193, 187); border-style: none; margin-left: auto; margin-right: auto; font-size: 1.3em; border-radius: 0.5em">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </body>
+</html>

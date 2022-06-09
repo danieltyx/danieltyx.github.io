@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <style>body{
+    font-family: "segoe ui emoji";
+}
+      #image1{
+    margin-top: 20px;
+}
+
+#intro{
+    border-style: solid;
+    border-radius: 10px;
+    margin: auto;
+    width: 70%;
+    margin-top: 30px;
+}
+
+#contentArea{
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#CommentArea{
+    width: 58%;
+    background-color: rgb(240, 238, 243);
+    margin: auto;
+    border-radius: 5px;
+    border-color: darkgray;
+    border-style: solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#commentTitle{
+    margin-left: 20px;
+}
+
+.comment{
+    margin-left: 50px;
+}
+
+.fa-thumbs-up{
+    transform: scale(1.5, 1.5);
+    margin-left: 30px;
+}
+
+.liketext{
+    margin-left: 10px;
+}
+
+#commentForm{
+    width: 100%
+}
+
+#like{
+    margin-right: 20px;
+    width: 13%;
+}
+
+#txtarea{
+    width: 70%; 
+    border-radius: 5px; 
+    height: auto;
+}
+
+#PostPost{
+    width: 10%; 
+    margin-left: 10px; 
+    position: relative; 
+    top: 3px;
+}
+          #template{
+              display: grid;
+              grid-template-columns: 70% 30%;
+              grid-template-areas: "cont side";
+          }
+      </style>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>COVID-19 China Project</title>
+<link href="../css/all.min.css" rel="stylesheet">
+  </head>
+  <body style="background-color: rgb(240, 238, 243)"  onload="load();">
+    <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <div id="page">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(96, 196, 188)">
+          <a class="navbar-brand" href="../index.html" style="font-weight: bold; font-family: 'adelle-sans' sans-serif;">COVID-19 China Project</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item ">
+                <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              
+              <li class="nav-item ">
+                <a class="nav-link" href="../about.html">About <span class="sr-only">(current)</span></a>
+              </li>
+              
+              <li class="nav-item active">
+                <a class="nav-link" href="../browsestory.html">Browse Story <span class="sr-only">(current)</span></a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#exampleModal" data-toggle="modal">Contact Us <span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div id="template">
+            <div style="grid-area: cont">
+                <h3 style="text-align: center; padding-top: 20px;">A Stranger Trapped in Wuhan</h3>
+                <div id="intro" style="padding: 20px">
+                Mr. Guo grew up in a city called Yushu in northern China. He worked in Shenzhen after he graduated from Dalian. Her wife is from Wuhan. Her parents live in Wuhan. When the epidemic broke out, Mr. Guo had just finished his work and was about to return to Wuhan for Spring Festival with his wife’s family. They heard some news about the virus when they depart, but they insisted to return. On the night of Jan.21st , his family arrived in Wuhan. Wuhan announced to lockdown at Jan.23rd. This interview recorded Mr. Guo’s experience and thoughts when he was in Wuhan.
+                </div>
+                <div id="contentArea">
+                    <h5 style="text-align: center; font-weight: bold">Introduction</h5>
+                    <p>I was born in a small city, Yushu, in Jilin. My hometown is a typical northern Chinese city. It is not big, an agricultural county with the population of about 2 million. Its economy mostly depends on agriculture, including beans, corns, etc. Besides, it is a city with distinctive four seasons. Since it is in the north, there are about six months which are very cold. This contributed to the locals’ tenacity and passion. I graduated from Dalian University of Technology in 2000. Then I worked in Shenzhen and settled there.</p>
+                    <p>I am now in Wuhan because of my wife. My wife was born and grew up in Wuhan. Her parents still live in Wuhan. We decided to have Spring Festival with them. Therefore, we came to Wuhan.</p>
+                    <p>I first came to Wuhan in about 2005. At that time, Wuhan gave me an impression of an old city. It was in a process of reconstruction and transportation planning.</p>
+                    <p>Also, Wuhan is a beautiful city. My parents-in-law are faculty members of Wuhan University They live close to Wuhan University. Behind is a beautiful East Lake scenic area, as well as the famous Yellow Crane Tower, the Yangtze River, and many ancient temples on the opposite side. I really like this kind of old city. For me, there are a lot of things worth exploring and let me learn. Because of work, I can't go back to this city once a year. My wife may come back more frequently, maybe once or twice a year, but I may come back once in two or three years.</p>
+                    <h5 style="text-align: center; font-weight: bold">Before the lock down</h5>
+                    <p>We have heard that there are some cases of this new type of pneumonia in this city since December 2019. At that time, they were just rumors. We were a little worried because the news we heard was a bit serious, but from the Wuhan government at that time Judging from the reaction, they have been repeatedly emphasizing that the danger is not high and that it will not be transmitted from person to person, etc. In fact, it was about mid-January of 2020 when I finished my project and returned to Shenzhen from Weifang. I was a bit hesitant to go back to Wuhan, but in the end, because my parents-in-law were here, we didn’t see them for a long time. So, I decided to come back. After all, family affection is more than everything, and even if something really happens in Wuhan, we must come back to be with the old man. We cannot let the two old people be alone in this city. We will hesitate and worry a little bit, but still decide to come back and see them. When we heard that there was a new type of pneumonia infection, we purchased a lot of masks on the way back from Shenzhen to Wuhan. But for others, all the masks in the city have been sold out, and they don’t want to buy any more.</p>
+                    <p>I drove back to Wuhan from Shenzhen on January 21 this year, because I can bring some things with my car, and because of the Spring Festival travel, it’s difficult to buy train tickets and plane tickets for transportation. We arrived in Wuhan on the evening of January 21. On the 22nd, we probably helped our family with housework, and then went out to buy some of these necessities for the New Year, including some food, snacks, and some vegetables, and then the day passed. Before the closure of the city, because Wuhan also had a large population of surrounding cities and other places, although there were not many people on the street, it was still very lively, including many people in shopping malls. In fact, the small shops It is still open for the last one or two days, because many people will also go back to his hometown for the New Year. At that time, it was actually very lively. There were not as many people as normal, but it was basically normal.</p>
+                    <h5 style="text-align: center; font-weight: bold">City closure in the eyes of ordinary people</h5>
+                    <p>Wuhan began to lock down the city at 10 am on January 23. Initially, at 10 am on January 23, it was announced that all out-of-city and road traffic would be blocked. At the same time, I could see some news through the Internet that it is recommended that citizens avoid going out as much as possible. But at that time, the community was still free to enter and exit, and it was also possible to go outside. But at this time the scene on the street is completely different. All shops are closed, and you can hardly see people along the street. I got this information through some news feeds on my mobile phone, saying that since January 23 at 10 o'clock, the traffic in Wuhan has been closed. I was actually a little nervous about the news of the lockdown, because such lockdowns were not many in the history of New China. Even when the SARS broke out in Beijing in 2003, Beijing did not lock the city.</p>
+                    <p>We feel that if the government has made such a decision to close the city, they must have obtained some clearer and more accurate data, proving that the epidemic is really serious. So, we feel a little worried. The second is to say that we are a little anxious, that is, because we have to go back to Shenzhen to work after the New Year, the children are going to school. We will worry about when the lockdown will last and whether it will affect our children's school and work.</p>
+                    <p>After hearing the news of the closure of the city, I personally feel that the government has to make a decision on two levels. The first is that if you consider it from the perspective of a large collective, I think this is A correct decision, because all our subsequent data can prove this. When we made a decision to close the city in Wuhan or close the province in the whole province, we really effectively controlled the source of the virus and more infections. It can be seen through the continuous decline of national data, or even zeroing. This can prove that the decision to close the city or the province is the correct decision to control the epidemic.</p>
+                    <p>Of course, we also want me to personally feel the inconvenience that this kind of closure has caused us, such as the inconvenience of traveling, and only staying at home every day, this kind of psychological pressure or change, including that I am not able to go out now. In other words, you can't purchase what you want by yourself. These are very inconvenient to the private level, or even have some depressive effects. But from the perspective of the overall situation, this is a decision I think is the right one.</p>
+                    <p>When we stayed in Wuhan for the Spring Festival, we found that the biggest difference should lie in two aspects. The first one is that during the Spring Festival in China, the reason why everyone has to travel far away from one of their working or resident cities. In my hometown, it was largely because I wanted to reunite with my relatives. Everyone spent the Spring Festival together. Because of the impact of the new crown virus, no one could reunite with relatives and friends during the New Year. My parents-in-law actually have many relatives in Wuhan. Both of them are very big families with many relatives. In the past, we would gather together for a period of time during the Chinese New Year every year, but this year everyone can only stay in their own homes, and can only use the phone or video to call each other New Year's greetings, and then communicate. On the one hand, it reduces the chances of family reunion and face-to-face greetings and face-to-face communication. On the other hand, Chinese New Year is a lively event, but this year is different. When the city was first closed and the traffic control and travel control were not so strict, we could still go outside. But at that time, there were no people to see on the street, and there were very few cars. I took a lot of photos at that time. You couldn't see a car on the main road like Xuefu Avenue, which was very busy in the past. For example, if you go to a place with busy traffic like the Yangtze River Bridge, it may take a long time for a car to pass by.</p>
+                    <h5 style="text-align: center; font-weight: bold">Management upgrade and volunteers</h5>
+                    <p>Only after mid-February, the city strengthened the control of citizens' travel. After mid-February, the control was upgraded to say that all communities are closed, and all residents are not allowed to enter or leave the community, unless you have some necessary work related to medical care or anti-epidemic related work and need to go back to work, or you As a volunteer, you need to enter and exit the community to purchase necessities for everyone, or medical staff need to enter and exit, etc., no one else can enter or leave the community. At the same time, vehicles are not allowed on the road. Therefore, Wuhan has gone through two stages: the first stage is to block the city and prevent everyone from entering or leaving the city. The public transportation in the urban area has stopped, but private cars and private individuals can still go out; in the second stage, the control will be upgraded after mid-February, and everyone is not allowed to travel, even if it is going out.</p>
+                    <p>At first, because Wuhan is divided into many districts, for example, there are Hankou, Hanyang, and some specific Qiaokou districts to the west of the Yangtze River. On the east side of the Yangtze River, there may be such districts as Wuchang, Hongshan, and Qingshan. Each district will take the district as a unit and issue a notice to the residents of the district, saying that we need some of these volunteers, if you are willing to serve everyone If you do, you can register through the following contact information. The government selects some volunteers through some preliminary assessments and screenings.</p>
+                    <p>There are two types of volunteers. One type of volunteers is that when the city is blocked, the government will recruit some volunteers from citizens who are still living in the city. They can buy some of them for those in the community who have mobility or living difficulties. The things needed, because other people can still buy these necessities for themselves.</p>
+                    <h5 style="text-align: center; font-weight: bold">Access to daily necessities</h5>
+                    <p>The other type did not appear until after the lockdown was escalated and everyone could not go out. Every building will be managed by the management staff of the property to guide everyone to establish a building and a WeChat group. Then in the WeChat group, announce the recent epidemic situation and collect items for purchase. Because from that time, all shopping malls and supermarkets in Wuhan no longer accept private supply, they only accept group purchase orders. Therefore, there will be a volunteer in each building. He will send a list of the current species and purchased items in the WeChat group, and then everyone will list the things they need in the WeChat group, and then give it to the volunteers He organizes them in a unified manner, and then purchases them in a unified manner. This volunteer can't go out. He is responsible for collecting information for everyone. After the information is finished, he will send it to shopping malls and supermarkets. The people in the supermarket will deliver these materials to the materials and logistics channels designated by the government. The logistics is delivered to the gate of the community. After the materials arrive, they will be notified via WeChat to go to the gate of the community to pick up the part of the items they bought. I will purchase the items needed for two or three days at a time. This is the part that supplements daily necessities. Volunteers have another very important duty, that is, when you have something urgently needed, such as your discomfort, you can report the situation to the neighborhood committee where your community is located. If they decide that this is true If necessary, he will ask volunteers to drive you directly to where you need to go. Therefore, the volunteers mainly helped everyone to do these things during this period. They are still very hard and they are also a very respectable group of people.</p>
+                    <p>When purchasing daily necessities, we pay through WeChat. We have a volunteer in the WeChat group. When he publishes the information about the vegetables that are currently available for purchase, it will be accompanied by prices and so on. Therefore, when we want to purchase something, we can calculate the amount by ourselves. Transfer the money to the volunteers via WeChat. In addition to our regular supplies, there are some free vegetables in the community, but this amount is very small, basically for people in the community who are inconvenient or financially difficult. This amount is small and the supply is tight. The prices of daily necessities should be considered normal. Some time after the city was closed, I heard that prices in some areas have risen more severely, and the prices will be outrageous, but I have not personally encountered it. I bought things in the supermarket after the city was closed, and the prices were still the same as usual. There was even a period of time because of news that the price increase was very ridiculous, and some so-called love vegetables donated by other cities appeared in supermarkets, and the prices were actually cheaper than usual. So in general, I just heard news that prices are skyrocketing in other areas, but I haven't encountered it myself.</p>
+                    <h5 style="text-align: center; font-weight: bold">Work Impact</h5>
+                    <p>In terms of my work, the closure of the city still has a great impact. Because I do this kind of consumer hardware products, our main operation model of this kind of product is to find a manufacturer, and then ask him to process our products, so under normal circumstances, we should be a processor The factories go to the scene to coordinate and work with them to work on the manufacturing and development of products.</p>
+                    <p>Because of the epidemic, we only control ourselves and cannot go to the manufacturer’s factory. It has a great influence on the efficiency and effectiveness of the entire product operation. On the other hand, I think we have some solutions to make up for, that is, we can use a lot of this kind of cloud data sharing, real-time telephone or video conference communication, to get first-hand information in production or on the factory side. We also give feedback in time, so this can also help us to slightly alleviate the disadvantage that we cannot direct and control on the spot. So on the whole, we have a great influence, but we are also taking some measures to actively alleviate the uncontrollable situation of being absent on site.</p>
+                    <h5 style="text-align: center; font-weight: bold">Online Education</h5>
+                    <p>Due to the epidemic, the start of school for my children has been postponed, and there is no definite date for when the school will start. But one thing more interesting is that they have already started teaching online. The school does not open, but students do not close. Teachers started class by giving classmates online. Their current online classes start to be later in the morning compared to normal school classes before. For example, they used to arrive at school at 8:00 in the morning, and the first class may start at 8:30, but now they basically start the first class at 9:30. The duration of each class is often shorter than that of a normal school. The children use Tencent Classroom in their school. You can register your class with the invitation code and information provided by the teacher, log in to your account, and it will display the class schedule of your class, and you can start the class by clicking on it. Teachers will assign their homework to children through on-site guidance in QQ group or Tencent classroom, and then they will ask children to upload their homework by taking photos. Teachers can use photos to correct the homework and then give feedback.</p>
+                    <p>The advantage is that it may not delay the start of the new semester courses for these children. According to the original schedule, these things are also in progress. But the downside is that it lacks a practical, face-to-face communication between teachers and classmates in school classrooms and check progress, a comparison of the degree of earnestness and mastery of students' learning, and a closer control. Therefore, it is necessary to rely on the assistance of parents to a large extent, that is, we need to ensure that the electronic devices of the children are ready for class. Then the second is that we have to urge him to concentrate during class, because the electronic equipment that the child is holding will be distracted, running to play games and so on. There is a drawback. Due to the bandwidth of our network, it often causes network stalls, which means that teaching is interrupted, so this also affects the effect of education to some extent. The children continue to take classes online, but we are a little worried that the teaching effect of this online class method will be far less than when the students actually return to the classroom to communicate and communicate with the teacher face to face.</p>
+                    <p>I believe that there are very few children who are more sensitive to the surrounding information. They know that my child is trapped in Wuhan, but they don’t understand exactly what this means. It seems to them that he can’t come back to Shenzhen. Up. They don't understand clearly what the impact of such a dangerous place is on other people, so they don't talk to him too much, or ask him how he is, or have some unfair views of him, etc.</p>
+                    <h5 style="text-align: center; font-weight: bold">People's views on the epidemic</h5>
+                    <p>As a resident trapped in Wuhan, I think our mood has gone through three periods. The first paragraph is when we just heard the news of the closure of the city, we felt that our estimate of the situation at that time was actually a bit more negative than the official data. Because at that time, the city, frankly, I think its government is not operating efficiently, so we think that in the first phase of the lockdown, we say that the actual infected population is good, and the potential people are also affected. Regardless of the number, it should far exceed the data released by the government.</p>
+                    <p>The second stage is that at that time, Wuhan and even the entire officialdom of Hubei Province experienced a very big exchange of blood. The original provincial and Wuhan municipal leaders have undergone a major adjustment. We can see that after the adjustment, the implementation of some specific affairs and the implementation of regulations will be a big change compared to the previous government. At the same time, because the control has also been upgraded, the community has also been closed. Up. We think this is the second stage of our control. Now we should have reason to believe that the leading government leaders of this term will take more effective and more implementable measures to control the current situation.</p>
+                    <p>In the third stage, in fact, it is now, and we have gradually adapted ourselves to the life at home and the life mode of working at home. We will be a little anxious and want to return to the city where we live as soon as possible, but at the same time we have already adapted to this kind of life. Judging from the data released every day, we also believe that China has indeed made considerable progress in controlling the epidemic. We have discovered thousands of new patients every day before and now there are only dozens of people every day. Great changes have indeed taken place. We are now confident that we have the opportunity to clear the newly infected population in the short term. In this way, we will be able to completely eliminate the epidemic in the next one or two months, and then let everything return to normal.</p>
+                    <p style="font-style: italic">Due to the timely adoption of various preventive measures, the epidemic in China has gradually subsided as time goes by. Wuhan City was also lifted on April 8 after the city was closed for 76 days. Mr. Guo has now returned to Shenzhen, back to normal life and work.</p>
+                </div>
+            </div>
+            <div style="grid-area: side; margin-top: 40px">
+                <p style="font-size: 1.3em"><strong>Interviewed By</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">Hao Chen</p>
+                <p style="font-size: 1.3em"><strong>Interviewee</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">Mr. Guo</p>
+                <p style="font-size: 1.3em"><strong>Interview Date</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">3/8/2020</p>
+                <p style="font-size: 1.3em"><strong>Occupation</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">Manager</p>
+            </div>
+        </div>
+        <hr>
+        <div id="CommentArea">
+           <div style="background-color: beige">
+                <h3 id="commentTitle">comments</h3>
+                <hr>
+            </div>
+            
+            <form class="form-inline" method="get">
+               <div class="form-group mx-sm-3 mb-2" id="commentForm">
+                   <button id="like" type="button" class="btn btn-outline-primary" onclick="pressLike()">
+                       <i class="fa fa-chevron-up" aria-hidden="true" id="likeSign" style="transition: transform 0.5s;"></i>
+                       Like <span id="likeNum">4</span>
+                   </button>
+                   
+                   <textarea class="form-control" id="txtarea" rows="1" placeholder="Write Comments!" name="comment"></textarea>
+                    <button type="submit" class="btn btn-primary mb-2" id="PostPost">Post</button>
+                </div>
+            </form>
+            </div>
+        </div>
+        <footer style="background-color: rgb(96, 196, 188); margin: auto">
+          <div class="footer-copyright text-center py-3">© 2020 PalmDrive. All Rights Reserved
+          </div>
+        </footer>
+        <script>
+      function myFunction(x){
+    if(x.className == "far fa-thumbs-up"){
+        x.className = "fas fa-thumbs-up";
+    }else{
+        x.className = "far fa-thumbs-up";
+     }
+}
+function expandTextarea(id) {
+    document.getElementById(id).addEventListener('keyup', function() {
+        this.style.overflow = 'hidden';
+        this.style.height = 0;
+        this.style.height = this.scrollHeight + 'px';
+    }, false);
+}
+
+expandTextarea('txtarea');
+
+function pressLike(){
+    let like = document.getElementById("like");
+    if(like.className == "btn btn-outline-primary"){
+        like.className = "btn btn-primary";
+        const sign = document.getElementById("likeSign");
+        sign.style.transform = "translateY(-5px)";
+        setTimeout(function (){
+            sign.style.transform = "translateY(0px)";
+        }, 400);
+        if (typeof(Storage) !== "undefined") {
+            localStorage.setItem("like23", "true");
+        }
+        const Http = new XMLHttpRequest();
+        const url = "/document/23?val=1&d=1";
+        Http.open("GET", url);
+        Http.send();
+        document.getElementById("likeNum").innerText = parseInt(document.getElementById("likeNum").innerText) + 1 + "";
+    }else{
+        like.className = "btn btn-outline-primary";
+        if (typeof(Storage) !== "undefined") {
+            localStorage.setItem("like23", "false");
+        }
+        const Http = new XMLHttpRequest();
+        const url = "/document/23?val=-1&d=1";
+        Http.open("GET", url);
+        Http.send();
+        document.getElementById("likeNum").innerText = parseInt(document.getElementById("likeNum").innerText) - 1 + "";
+    }
+}
+function load(){
+    if(localStorage.getItem("like23") == "true"){
+        like.className = "btn btn-primary";
+    }
+}
+      </script>
+      <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="border-style: none">
+  <div class="modal-dialog modal-dialog-centered" style="border-style: none">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color: rgb(88, 193, 187);">
+        <h5 class="modal-title" id="exampleModalLabel" style="margin-left: auto; color: white; font-size: 1.5em">Contact Us</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" style="padding-left: 20%; padding-right: 20%;">
+        <div style="position: relative;">
+            <i class="fas fa-envelope" style="color: rgb(88, 193, 187); font-size: 2em"></i>
+            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 230px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">tina_sheng@palmdrive.cn</span>
+        </div>
+          <br>
+        <div style="position: relative;">
+            <i class="fab fa-weixin" style="color: rgb(88, 193, 187); font-size: 1.9em"></i>
+            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 230px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">tinasheng002</span>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal" style="background-color: rgb(88, 193, 187); border-style: none; margin-left: auto; margin-right: auto; font-size: 1.3em; border-radius: 0.5em">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </body>
+</html>

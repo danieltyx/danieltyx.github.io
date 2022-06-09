@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <style>body{
+    font-family: "segoe ui emoji";
+}
+      #image1{
+    margin-top: 20px;
+}
+
+#intro{
+    border-style: solid;
+    border-radius: 10px;
+    margin: auto;
+    width: 70%;
+    margin-top: 30px;
+}
+
+#contentArea{
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#CommentArea{
+    width: 58%;
+    background-color: rgb(240, 238, 243);
+    margin: auto;
+    border-radius: 5px;
+    border-color: darkgray;
+    border-style: solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#commentTitle{
+    margin-left: 20px;
+}
+
+.comment{
+    margin-left: 50px;
+}
+
+.fa-thumbs-up{
+    transform: scale(1.5, 1.5);
+    margin-left: 30px;
+}
+
+.liketext{
+    margin-left: 10px;
+}
+
+#commentForm{
+    width: 100%
+}
+
+#like{
+    margin-right: 20px;
+    width: 13%;
+}
+
+#txtarea{
+    width: 70%; 
+    border-radius: 5px; 
+    height: auto;
+}
+
+#PostPost{
+    width: 10%; 
+    margin-left: 10px; 
+    position: relative; 
+    top: 3px;
+}
+          #template{
+              display: grid;
+              grid-template-columns: 70% 30%;
+              grid-template-areas: "cont side";
+          }
+      </style>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>COVID-19 China Project</title>
+<link href="../css/all.min.css" rel="stylesheet">
+  </head>
+  <body style="background-color: rgb(240, 238, 243)"  onload="load();">
+    <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <div id="page">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(96, 196, 188)">
+          <a class="navbar-brand" href="../index.html" style="font-weight: bold; font-family: 'adelle-sans' sans-serif;">COVID-19 China Project</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item ">
+                <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              
+              <li class="nav-item ">
+                <a class="nav-link" href="../about.html">About <span class="sr-only">(current)</span></a>
+              </li>
+              
+              <li class="nav-item active">
+                <a class="nav-link" href="../browsestory.html">Browse Story <span class="sr-only">(current)</span></a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#exampleModal" data-toggle="modal">Contact Us <span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div id="template">
+            <div style="grid-area: cont">
+                <h3 style="text-align: center; padding-top: 20px;">The determination to finish the work is far greater than the fear of the corona virus</h3>
+                <div id="intro" style="padding: 20px">
+                She worked as a nurse for 19 years and was responsible for the quality control of medical records in the first Department of the inpatient department of the hospital. Her salary just reached the average level of local wages in Shaoyang, less than 3000 yuan. As medical staff, they can only take turns to have a rest on holidays. Without the epidemic, her daughter, who had already worked, would have gone home to have a happy new year for the family of three, and she would go out with friends to enjoy the beautiful scenery in the spring. The interview was conducted during the lunch break from 12:30 to 13:30 every day.
+                </div>
+                <div id="contentArea">
+                    <p>Since the closure of Wuhan on the 22nd, the hospital in Hunan Province has strengthened pre-ventive measures. Since January 27th, all medical staff in the hospital have started to work nor-mally. The hospital has a fever clinic, and the medical staff in the outpatient department do a good job of secondary protection. All patients who come to the hospital first go to see a doctor through the fever clinic, and do a blood routine examination and lung CT to eliminate the new coronavirus pneumonia After the patients, if there are still febrile patients who need transfusion, they should register their names and telephone numbers in the outpatient department for investi-gation and visit. The febrile patients who need to be hospitalized should be arranged in one ward for continuous close observation, and the patients without fever should be arranged in another ward. The medical staff in the ward shall do a good job of primary protection. The ward shall spray the floor and toilet with 5% concentration of 84 disinfectant at the ratio of 1:50 every day, wipe the medical equipment, disinfect the canteen, office, duty room and ward with air disinfec-tor, and test the disinfection effect twice a day, distribute free masks to patients every day, and explain the protective measures.</p>
+                    <p>The primary and secondary protective measures are mainly aimed at screening new corona-virus pneumonia patients to avoid infection of medical staff and patients. The first level of pro-tection is that the medical staff should wear work clothes, isolation clothes, disposable working caps, disposable surgical masks and disposable rubber gloves for diagnosis and treatment in the ward. The second level of protection is that the medical staff should wear work clothes, wear a protective clothing outside the work clothes, wear disposable working caps, medical protective masks, goggles, disposable rubber gloves and disposable shoe covers for diagnosis and treatment in fever clinic. No matter what kind of mask, it must be replaced after 4 hours. If it feels wet, it should be replaced immediately if it is polluted. Every day, deep red marks are pressed out around my eyes, which take a long time to fade away. But if it is not pressed tightly, it will give the virus an opportunity to take advantage of it. There is no time to look at mobile phones except for two hours' rest at noon every day.</p>
+                    <p>From 8:30 am to 9:30 am, I will check the body temperature of patients and their caregivers, explain the clinical manifestations, epidemic history and protective measures of the new corona-virus pneumonia to the patients, drill the seven step washing technique for the patients, how to correctly wear masks, issue daily lists and give masks to patients, handle the doctor's orders from 9:30 to 11:00, and inquire about the first 14:00 of new patients From 11:00 to 12:00, due to the influence of the epidemic situation, the family members of the patients were reduced to accom-pany them. The responsible nurse customized lunch boxes for the patients and gave them to me. Then they were sent to the canteen of the hospital to deliver meals to the ward. They went to the pharmacy to take medicine and gave them oral medication. From 14:30 to 15:20 PM, check the body temperature of patients and their caregivers, go to the ward to inspect whether the patients know to throw the changed masks into the designated medical garbage bags, whether they know to use the quick hand washing disinfectant at the door of the ward, handle the doctor's orders in the afternoon from 15:20 to 17:00, go to the pharmacy to get the medicine, give the medicine to the patients, and from 17:00 to 17:30 Check the medical records of discharged patients arranged by the responsible nurses, write shift handover reports, and check medical orders.</p>
+                    <p>What moved me was a visit to the ward in the afternoon. I saw a middle-aged male patient washing his hands with seven steps in the sink beside the toilet. Although the steps were a little messy, we could see that he was serious and did not regard the epidemic as a child's play. Even though two cases of new coronavirus pneumonia were found among the patients in their hospital, they were sent to the designated hospital for treatment in time. Because of the good preventive measures, no one in the hospital was infected. From January 27, all medical staff in the hospital began to work normally. After ordinary patients came to the hospital for treatment, most of them recovered their health and went home happily without being affected by the epidemic. Through repeated explanation of the knowledge about new coronavirus pneumonia by medical staff, we all know that as long as we go out less, do not get together, wash hands frequently and wear masks, we will not be infected with the virus if there is discomfort and timely treatment. There was no panic in the hospital.</p>
+                    <p>In my hospital, in addition to the 24-hour duty in the inpatient department, the out-patient duty lasts until 9:00 p.m., and the medical staff sent to the highway intersection and bus station for routine inspection and emergency rescue are on duty 24 hours a day. From the outbreak of the epidemic to now, every day I go to work, I can find that there are not many pedestrians in the street except for cars coming and going. Even if there are, they are walking in a hurry wearing masks. There are almost no people who do not wear masks. There are only a few people sitting on the normally crowded buses.</p>
+                    <p>Because I have a high risk of infection, I have to do a good job of disinfection every time I go home. My wife is a Communist Party member and also a worker fighting the epidemic in the front line of the epidemic. My mother-in-law and daughter cook and wash clothes at home. My husband and I spray 75% alcohol on the outside of the living room after going home from work. Then I take off my coat and hang it outside the living room. Then I wash my hair and change in-to home clothes. I open the window three times a day, 30 minutes each time, and use 84 disin-fectant a week 5% concentration, wipe the floor and furniture, including door handles, etc., with public chopsticks for eating, and then use 60 ℃ water to cook the dishes for 30 minutes.</p>
+                    <p>On March 15, there was no new coronavirus pneumonia patient in my county for a month. On that day, the mode of returning to work and giving birth was officially opened. Only the school was still waiting for the notice of the opening of school. People still consciously wore masks to travel, and the neighbors around did not see the phenomenon of relatives and friends gathering.  </p>
+                    <p>I have been working as a nurse for so many years, but I have a period can't take care of both my family and work. My father-in-law had been sick for five years before his death, including em-physema, cerebral infarction, hypertension, and renal insufficiency. My mother-in-law and my father-in-law were of the same age. They were almost 80 years old. My husband worked in the countryside and went home on weekends. There was also a child who loved colds and coughs and had to go to school Taking care of my father-in-law's medical treatment is my concern. My father-in-law is affected by cerebral infarction, and his left hand and feet are dysfunctional. He needs to go to the hospital in a wheelchair. I have to get up at six o'clock every day, finish wash-ing the whole family, and push my father-in-law to my hospital for infusion after breakfast. I have to arrive at the hospital ward before eight o'clock, and then I will attend the morning meet-ing of medical staff after holding the father-in-law in the hospital bed In the morning, I took my father-in-law home to help him eat, wash and take medicine after work. At 11:00 p.m Sometimes my father-in-law would wake me up in the middle of the night to say that it was uncomfortable and uncomfortable. In serious cases, he pushed him to the hospital in the middle of the night. This life lasted for more than two years. Until his father-in-law died, there were several times because of lack of sleep, physical exhaustion, there were errors in the work, fortunately did not cause discomfort to patients. At this time, I had the idea of giving up my work. Later, because the director of the Department looked at me too hard, he asked me to rest for a month. At this time, my father-in-law accidentally fell down, leading to cerebral hemorrhage. He was uncon-scious and died after rescuing for 20 days.</p>
+                    <p>After my daughter worked, I devoted myself to nursing. It's no accident that I became a nurse. A text about Dr. Bethune in primary school had a deep influence on me. I felt that the medical staff were great and could help the dying and heal the wounded. I also wanted to be such a person, so I chose to be a nurse. Until now, I have no regrets about my choice. In this outbreak of new coronavirus pneumonia, my colleagues and I signed a letter of request without hesitation in the unit, hoping to be able to glow in the place where patients most need medical staff. When it comes to whether or not I am tired of trivial work, after all, I am still a housewife. Resting at home is also doing trivial things all day long. Trivial things in work should be done in an orderly manner like housework. I don't feel that there is a gap between reality and ideal. I have known for a long time that honor needs hard work to achieve.</p>
+                </div>
+            </div>
+            <div style="grid-area: side; margin-top: 40px">
+                <p style="font-size: 1.3em"><strong>Interviewed By</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">Selina</p>
+                <p style="font-size: 1.3em"><strong>Interviewee</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">Mrs. Shi</p>
+                <p style="font-size: 1.3em"><strong>Interview Date</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">3/1/2020</p>
+                <p style="font-size: 1.3em"><strong>Occupation</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">Nurse </p>
+            </div>
+        </div>
+        <hr>
+        <div id="CommentArea">
+           <div style="background-color: beige">
+                <h3 id="commentTitle">comments</h3>
+                <hr>
+            </div>
+            
+                <div class="comment">
+                <p><p><br>
+            </div>
+            <hr>
+            
+            <form class="form-inline" method="get">
+               <div class="form-group mx-sm-3 mb-2" id="commentForm">
+                   <button id="like" type="button" class="btn btn-outline-primary" onclick="pressLike()">
+                       <i class="fa fa-chevron-up" aria-hidden="true" id="likeSign" style="transition: transform 0.5s;"></i>
+                       Like <span id="likeNum">1</span>
+                   </button>
+                   
+                   <textarea class="form-control" id="txtarea" rows="1" placeholder="Write Comments!" name="comment"></textarea>
+                    <button type="submit" class="btn btn-primary mb-2" id="PostPost">Post</button>
+                </div>
+            </form>
+            </div>
+        </div>
+        <footer style="background-color: rgb(96, 196, 188); margin: auto">
+          <div class="footer-copyright text-center py-3">© 2020 PalmDrive. All Rights Reserved
+          </div>
+        </footer>
+        <script>
+      function myFunction(x){
+    if(x.className == "far fa-thumbs-up"){
+        x.className = "fas fa-thumbs-up";
+    }else{
+        x.className = "far fa-thumbs-up";
+     }
+}
+function expandTextarea(id) {
+    document.getElementById(id).addEventListener('keyup', function() {
+        this.style.overflow = 'hidden';
+        this.style.height = 0;
+        this.style.height = this.scrollHeight + 'px';
+    }, false);
+}
+
+expandTextarea('txtarea');
+
+function pressLike(){
+    let like = document.getElementById("like");
+    if(like.className == "btn btn-outline-primary"){
+        like.className = "btn btn-primary";
+        const sign = document.getElementById("likeSign");
+        sign.style.transform = "translateY(-5px)";
+        setTimeout(function (){
+            sign.style.transform = "translateY(0px)";
+        }, 400);
+        if (typeof(Storage) !== "undefined") {
+            localStorage.setItem("like16", "true");
+        }
+        const Http = new XMLHttpRequest();
+        const url = "/document/16?val=1&d=1";
+        Http.open("GET", url);
+        Http.send();
+        document.getElementById("likeNum").innerText = parseInt(document.getElementById("likeNum").innerText) + 1 + "";
+    }else{
+        like.className = "btn btn-outline-primary";
+        if (typeof(Storage) !== "undefined") {
+            localStorage.setItem("like16", "false");
+        }
+        const Http = new XMLHttpRequest();
+        const url = "/document/16?val=-1&d=1";
+        Http.open("GET", url);
+        Http.send();
+        document.getElementById("likeNum").innerText = parseInt(document.getElementById("likeNum").innerText) - 1 + "";
+    }
+}
+function load(){
+    if(localStorage.getItem("like16") == "true"){
+        like.className = "btn btn-primary";
+    }
+}
+      </script>
+      <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="border-style: none">
+  <div class="modal-dialog modal-dialog-centered" style="border-style: none">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color: rgb(88, 193, 187);">
+        <h5 class="modal-title" id="exampleModalLabel" style="margin-left: auto; color: white; font-size: 1.5em">Contact Us</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" style="padding-left: 20%; padding-right: 20%;">
+        <div style="position: relative;">
+            <i class="fas fa-envelope" style="color: rgb(88, 193, 187); font-size: 2em"></i>
+            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 250px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">tina_sheng@palmdrive.cn</span>
+        </div>
+          <br>
+        <div style="position: relative;">
+            <i class="fab fa-weixin" style="color: rgb(88, 193, 187); font-size: 1.9em"></i>
+            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 250px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">tinasheng002</span>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal" style="background-color: rgb(88, 193, 187); border-style: none; margin-left: auto; margin-right: auto; font-size: 1.3em; border-radius: 0.5em">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </body>
+</html>
